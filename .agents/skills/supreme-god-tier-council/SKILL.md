@@ -1,23 +1,27 @@
 ---
 name: supreme-god-tier-council
-description: Supreme God-Tier Council Master Skill governed by the Sovereign AI Master Mind and the Merciless Quality Audit Tribunal Agent. Enforces Beyond-Awwwards Airtable automation, Business BI analytics, Algorithmic generative art shaders, CQRS microservices, agent evaluation, Google Docs & Slides, Twilio & WhatsApp, Docker containers, memory systems, Remotion video, PDF proposal engine, APNs push notifications, Slack & Notion workflows, email sequences, referral partner growth, A/B testing CRO, KVKK/GDPR compliance, copywriting, AI lead capture sales, programmatic trade fair SEO, self-healing code repair, brainstorming ideation, visual trend research, 3-pass internal quality filtering, absolute veto power, Anthropic Claude reasoning, OpenAI Codex zero trial-and-error execution, Apple HIG, 3D photorealism, and zero logic breakage.
+description: Supreme God-Tier Council Master Skill governed by the Sovereign AI Master Mind and the Merciless Quality Audit Tribunal Agent. Enforces Beyond-Awwwards Make.com & Zapier, Odoo ERP, Shopify automation, HubSpot CRM, Airtable automation, Business BI analytics, Algorithmic generative art shaders, CQRS microservices, agent evaluation, Google Docs & Slides, Twilio & WhatsApp, Docker containers, memory systems, Remotion video, PDF proposal engine, APNs push notifications, Slack & Notion workflows, email sequences, referral partner growth, A/B testing CRO, KVKK/GDPR compliance, copywriting, AI lead capture sales, programmatic trade fair SEO, self-healing code repair, brainstorming ideation, visual trend research, 3-pass internal quality filtering, absolute veto power, Anthropic Claude reasoning, OpenAI Codex zero trial-and-error execution, Apple HIG, 3D photorealism, and zero logic breakage.
 metadata:
   category: supreme-god-tier-orchestration
-  triggers: supreme god tier master brain, airtable automation, business analyst bi, algorithmic art, cqrs microservices, agent evaluation, google docs slides, twilio whatsapp, docker container
+  triggers: supreme god tier master brain, make zapier automation, odoo erp, shopify automation, hubspot crm, airtable automation, business analyst bi, algorithmic art, cqrs microservices
 ---
 
-# Supreme God-Tier Council (51-Member Master Roster)
+# Supreme God-Tier Council (55-Member Master Roster)
 
 This skill governs the **Zirve Seviye Tanrısal Konsey (Supreme God-Tier Council)** under the **BEYOND-AWWWARDS ULTIMATE COMMAND**:
 
 ---
 
-## 💻 51-Member Supreme Master Roster
+## 💻 55-Member Supreme Master Roster
 
 | Member | Specialty | Primary Responsibility |
 |---|---|---|
-| 🧠 **Sovereign Master Mind** | Supreme Sovereign AI Mind | 360° Commander-in-Chief; orchestrates all 51 agents beyond Awwwards. |
+| 🧠 **Sovereign Master Mind** | Supreme Sovereign AI Mind | 360° Commander-in-Chief; orchestrates all 55 agents beyond Awwwards. |
 | ⚔️ **Ruthless Quality Tribunal** | Supreme Merciless Critic | 3-Pass Internal Audit; holds absolute VETO before user presentation. |
+| ⚡ **Make & Zapier Fellow** | No-Code Scenario Pipelines | Visual workflow scenarios, multi-app triggers & error fallback pipelines. |
+| 🛒 **Odoo ERP Fellow** | ERP & Inventory Operations | Warehouse stock tracking, raw materials BOM & procurement workflows. |
+| 🛍️ **Shopify Automation Fellow** | E-Commerce Stand Catalogs | Modular stand products, custom checkout & order fulfillment. |
+| 🏢 **HubSpot CRM Fellow** | Sales & Deal Pipelines | Automatic deal pipelines, predictive lead scoring & CRM workflows. |
 | 🗃️ **Airtable Automation Fellow** | Relational Database Sync | Automated sync of stand inquiries & inventory to Airtable bases. |
 | 📈 **Business Analytics Fellow** | BI Dashboards & Unit Economics | Real-time financial dashboards, m² profit margins & KPI tracking. |
 | 🎨 **Algorithmic Art Fellow** | Computational GLSL Shaders | 60/120 FPS WebGL fragment shaders & generative spatial graphics. |
