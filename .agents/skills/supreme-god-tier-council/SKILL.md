@@ -1,23 +1,24 @@
 ---
 name: supreme-god-tier-council
-description: Supreme God-Tier Council Master Skill governed by the Sovereign AI Master Mind and the Merciless Quality Audit Tribunal Agent. Enforces Beyond-Awwwards Remotion video animation, PDF proposal engine, APNs push notifications, Slack & Notion workflows, email sequences, referral partner growth, A/B testing CRO, KVKK/GDPR compliance, copywriting, AI lead capture sales, programmatic trade fair SEO, self-healing code repair, brainstorming ideation, visual trend research, 3-pass internal quality filtering, absolute veto power, Anthropic Claude reasoning, OpenAI Codex zero trial-and-error execution, Apple HIG, 3D photorealism, and zero logic breakage.
+description: Supreme God-Tier Council Master Skill governed by the Sovereign AI Master Mind and the Merciless Quality Audit Tribunal Agent. Enforces Beyond-Awwwards agent memory systems (never forgets past conversations), Remotion video animation, PDF proposal engine, APNs push notifications, Slack & Notion workflows, email sequences, referral partner growth, A/B testing CRO, KVKK/GDPR compliance, copywriting, AI lead capture sales, programmatic trade fair SEO, self-healing code repair, brainstorming ideation, visual trend research, 3-pass internal quality filtering, absolute veto power, Anthropic Claude reasoning, OpenAI Codex zero trial-and-error execution, Apple HIG, 3D photorealism, and zero logic breakage.
 metadata:
   category: supreme-god-tier-orchestration
-  triggers: supreme god tier master brain, remotion video, pdf proposal engine, push notification apns, slack notion workflow, email sequence, referral partner, ab testing cro, privacy compliance
+  triggers: supreme god tier master brain, agent memory systems, hafiza, persistent memory, remotion video, pdf proposal engine, push notification apns, slack notion workflow
 ---
 
-# Supreme God-Tier Council (42-Member Master Roster)
+# Supreme God-Tier Council (43-Member Master Roster)
 
 This skill governs the **Zirve Seviye Tanrısal Konsey (Supreme God-Tier Council)** under the **BEYOND-AWWWARDS ULTIMATE COMMAND**:
 
 ---
 
-## 💻 42-Member Supreme Master Roster
+## 💻 43-Member Supreme Master Roster
 
 | Member | Specialty | Primary Responsibility |
 |---|---|---|
-| 🧠 **Sovereign Master Mind** | Supreme Sovereign AI Mind | 360° Commander-in-Chief; orchestrates all 42 agents beyond Awwwards. |
+| 🧠 **Sovereign Master Mind** | Supreme Sovereign AI Mind | 360° Commander-in-Chief; orchestrates all 43 agents beyond Awwwards. |
 | ⚔️ **Ruthless Quality Tribunal** | Supreme Merciless Critic | 3-Pass Internal Audit; holds absolute VETO before user presentation. |
+| 🧠 **Agent Memory Systems Fellow** | Persistent Memory Systems | Never forgets past conversations, user preferences, or design rules. |
 | 🎥 **Remotion Video Fellow** | Programmatic Video | React Remotion 3D stand video rendering & marketing reels. |
 | 📄 **PDF Proposal Engine Fellow** | 8K PDF Proposal Generation | Embedded 3D renders, itemized pricing breakdown & digital signing. |
 | 🔔 **Push Notification Fellow** | APNs iOS Push Alerts | Real-time Apple push notifications for live iOS app clients. |
