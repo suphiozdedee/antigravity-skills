@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="tr" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlanicWorks by Projenic Design | Fuar Standı & Mimari Operasyon SaaS Platformu</title>
+  <meta name="description" content="PlanicWorks; ahşap, maxima ve modüler fuar stand tasarımları, 3D görselleştirme, canlı teklif hesaplama ve saha montaj yönetimini buluşturan akıllı mimari operasyon platformudur.">
+  <meta name="keywords" content="projenic design, planicworks, fuar stand tasarımı, saas platformu, 3d stand mimarisi, ahşap stand, maxima stand, modüler stand, bütçe hesaplama">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              400: '#818cf8',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+              900: '#1e1b4b',
+              accent: '#10b981'
+            }
+          },
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'Inter', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts & Phosphor Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <style>
+    /* ── ULTRA-PREMIUM SAAS UI DESIGN SYSTEM STYLES ─────────────────────── */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #050507;
+      color: #f8fafc;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Ambient Radial Mesh Background Orbs */
+    .bg-mesh-orbs {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      background-image:
+        radial-gradient(ellipse 65% 50% at 15% 10%, rgba(99, 102, 241, 0.25) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 45% at 85% 80%, rgba(16, 185, 129, 0.18) 0%, transparent 55%),
+        radial-gradient(ellipse 40% 35% at 75% 15%, rgba(217, 70, 239, 0.12) 0%, transparent 50%),
+        radial-gradient(ellipse 55% 45% at 20% 85%, rgba(59, 130, 246, 0.15) 0%, transparent 55%);
+    }
+
+    /* Subtle Film Grain Noise Overlay */
+    .bg-noise-overlay {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+      opacity: 0.025;
+      background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    }
+
+    /* Strict Dynamic Typography Tracking Laws */
+    .tracking-hero { letter-spacing: -0.038em; }
+    .tracking-h2   { letter-spacing: -0.028em; }
+    .tracking-h3   { letter-spacing: -0.018em; }
+    .tracking-eyebrow { letter-spacing: 0.15em; }
+
+    /* Concentric Double-Bezel Card Shell Architecture */
+    .bezel-outer-24 {
+      border-radius: 24px;
+      padding: 8px;
+      background: rgba(255, 255, 255, 0.035);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 
+        inset 0 1px 1px rgba(255, 255, 255, 0.12),
+        0 20px 40px -15px rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(20px);
+    }
+    .bezel-inner-16 {
+      border-radius: 16px; /* 24px outer - 8px padding = 16px inner */
+    }
+
+    .bezel-outer-16 {
+      border-radius: 16px;
+      padding: 6px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);
+    }
+    .bezel-inner-10 {
+      border-radius: 10px; /* 16px outer - 6px padding = 10px inner */
+    }
+
+    /* Glass Effect Utilities */
+    .glass-card {
+      background: rgba(18, 20, 29, 0.65);
+      backdrop-filter: blur(24px) saturate(160%);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);
+    }
+
+    .glass-card-hover {
+      transition: transform 0.35s cubic-bezier(0.32, 0.72, 0, 1), border-color 0.35s ease, box-shadow 0.35s ease;
+    }
+    .glass-card-hover:hover {
+      transform: translateY(-4px);
+      border-color: rgba(99, 102, 241, 0.35);
+      box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2), 0 20px 40px -10px rgba(99, 102, 241, 0.15);
+    }
+
+    /* Floating Island Nav Pill */
+    .nav-island {
+      background: rgba(10, 11, 16, 0.75);
+      backdrop-filter: blur(24px) saturate(180%);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.8), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    }
+
+    /* Glowing Pulse Status Dot */
+    .pulse-dot-emerald {
+      box-shadow: 0 0 10px #10b981;
+      animation: pulse-emerald 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+    @keyframes pulse-emerald {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.85); }
+    }
+
+    /* Range Slider Styling */
+    input[type=range] {
+      -webkit-appearance: none;
+      background: rgba(255, 255, 255, 0.08);
+      height: 6px;
+      border-radius: 3px;
+    }
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background: #6366f1;
+      cursor: pointer;
+      box-shadow: 0 0 12px rgba(99, 102, 241, 0.8), 0 0 0 4px rgba(255, 255, 255, 0.1);
+      transition: transform 0.15s ease;
+    }
+    input[type=range]::-webkit-slider-thumb:hover {
+      transform: scale(1.15);
+    }
+  </style>
+</head>
+<body class="relative min-h-screen text-slate-100 selection:bg-indigo-500 selection:text-white">
+
+  <!-- Background Layer -->
+  <div class="bg-mesh-orbs"></div>
+  <div class="bg-noise-overlay"></div>
+
+  <!-- ==========================================================================
+       FLOATING ISLAND NAVBAR (Awwwards-Tier Fluid Island)
+       ========================================================================== -->
+  <nav class="fixed top-5 inset-x-0 z-50 flex justify-center px-4">
+    <div class="nav-island rounded-full px-5 py-2.5 flex items-center justify-between gap-6 max-w-5xl w-full">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center gap-2.5 group">
+        <div class="w-8 h-8 rounded-full bg-gradient-to-tr from-indigo-600 via-indigo-500 to-emerald-400 flex items-center justify-center shadow-lg shadow-indigo-500/30 group-hover:scale-105 transition-transform">
+          <i class="ph-bold ph-cube text-white text-base"></i>
+        </div>
+        <div class="flex flex-col">
+          <span class="font-extrabold text-sm tracking-tight text-white flex items-center gap-1.5">
+            PlanicWorks <span class="text-[10px] font-bold px-1.5 py-0.2 bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 rounded-full">SaaS</span>
+          </span>
+          <span class="text-[9.5px] font-medium text-slate-400 tracking-wider uppercase -mt-0.5">by Projenic Design</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <div class="hidden md:flex items-center gap-1 text-xs font-semibold text-slate-300">
+        <a href="#features" class="px-3.5 py-1.5 rounded-full hover:text-white hover:bg-white/5 transition-colors">Özellikler</a>
+        <a href="#bento" class="px-3.5 py-1.5 rounded-full hover:text-white hover:bg-white/5 transition-colors">Mimari Engine</a>
+        <a href="#portfolio" class="px-3.5 py-1.5 rounded-full hover:text-white hover:bg-white/5 transition-colors">Portfolyo</a>
+        <a href="#calculator" class="px-3.5 py-1.5 rounded-full hover:text-white hover:bg-white/5 transition-colors">Bütçe Hesapla</a>
+        <a href="#contact" class="px-3.5 py-1.5 rounded-full hover:text-white hover:bg-white/5 transition-colors">İletişim</a>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-2">
+        <a href="https://wa.me/905512047851" target="_blank" class="hidden sm:inline-flex items-center gap-1.5 h-9 px-3.5 rounded-full text-xs font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/25 hover:bg-emerald-500/20 transition-all">
+          <i class="ph-bold ph-whatsapp-logo text-sm"></i> WhatsApp
+        </a>
+
+        <!-- Button-in-Button Trailing Icon CTA -->
+        <button onclick="openCallModal()" class="h-9 pl-3.5 pr-1.5 rounded-full bg-white hover:bg-slate-100 text-slate-950 text-xs font-bold flex items-center gap-2 shadow-lg shadow-white/10 active:scale-95 transition-all group">
+          <span>Sizi Arayalım</span>
+          <span class="w-6 h-6 rounded-full bg-slate-950/10 flex items-center justify-center text-slate-950 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">
+            <i class="ph-bold ph-arrow-up-right text-xs"></i>
+          </span>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="md:hidden w-9 h-9 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white">
+          <i class="ph-bold ph-list text-lg"></i>
+        </button>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- Mobile Dropdown Menu -->
+  <div id="mobileMenu" class="hidden fixed inset-0 z-40 bg-slate-950/90 backdrop-blur-2xl pt-24 px-6 flex flex-col gap-4 text-sm font-semibold">
+    <a href="#features" onclick="toggleMobileMenu()" class="py-3 border-b border-white/10 text-white">Özellikler</a>
+    <a href="#bento" onclick="toggleMobileMenu()" class="py-3 border-b border-white/10 text-white">Mimari Engine</a>
+    <a href="#portfolio" onclick="toggleMobileMenu()" class="py-3 border-b border-white/10 text-white">Portfolyo</a>
+    <a href="#calculator" onclick="toggleMobileMenu()" class="py-3 border-b border-white/10 text-white">Bütçe Hesapla</a>
+    <a href="#contact" onclick="toggleMobileMenu()" class="py-3 border-b border-white/10 text-white">İletişim</a>
+    <div class="pt-4 flex flex-col gap-3">
+      <a href="https://wa.me/905512047851" target="_blank" class="h-11 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 flex items-center justify-center gap-2 font-bold">
+        <i class="ph-bold ph-whatsapp-logo text-base"></i> WhatsApp İletişim
+      </a>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       HERO SECTION (High-Impact Spatial Rhythm & Premium Typography)
+       ========================================================================== -->
+  <section class="relative pt-36 pb-20 md:pt-44 md:pb-28 px-4 max-w-7xl mx-auto z-10">
+    <div class="flex flex-col items-center text-center">
+      
+      <!-- Micro Eyebrow Tag -->
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 text-eyebrow text-indigo-300 text-xs font-semibold uppercase mb-6 shadow-inner backdrop-blur-xl">
+        <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
+        <span>Awwwards-Tier Architectural SaaS Platform</span>
+      </div>
+
+      <!-- Hero Title -->
+      <h1 class="text-hero text-4xl sm:text-6xl md:text-7xl font-extrabold text-white max-w-5xl leading-[1.04] mb-6">
+        Fuar Stand Tasarımında <br class="hidden sm:inline">
+        <span class="bg-gradient-to-r from-white via-indigo-100 to-indigo-300 bg-clip-text text-transparent">Yapay Zeka Ve Mimari Hassasiyet</span>
+      </h1>
+
+      <!-- Hero Subtitle -->
+      <p class="text-base sm:text-lg text-slate-400 max-w-2xl leading-relaxed mb-8">
+        Projenic Design güvencesiyle Ahşap, Maxima ve Modüler fuar standı operasyonlarını 3D görselleştirmeden canlı teklif hesaplamaya kadar tek dijital platformda yönetin.
+      </p>
+
+      <!-- Dual Action Buttons -->
+      <div class="flex flex-wrap items-center justify-center gap-4 mb-16">
+        <!-- Button LG (48px) Primary -->
+        <a href="#calculator" class="h-12 px-7 rounded-full bg-gradient-to-r from-indigo-600 via-indigo-500 to-indigo-700 text-white font-bold text-sm flex items-center gap-3 shadow-xl shadow-indigo-600/30 border border-indigo-400/30 hover:scale-[1.02] active:scale-95 transition-all group">
+          <span>Anında Teklif Hesapla</span>
+          <span class="w-7 h-7 rounded-full bg-white/15 flex items-center justify-center text-white group-hover:translate-x-1 transition-transform">
+            <i class="ph-bold ph-calculator text-sm"></i>
+          </span>
+        </a>
+
+        <!-- Button LG (48px) Secondary -->
+        <a href="tel:+905512047851" class="h-12 px-7 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 text-white font-semibold text-sm flex items-center gap-2.5 backdrop-blur-xl active:scale-95 transition-all">
+          <i class="ph-bold ph-phone-call text-indigo-400 text-base"></i>
+          <span>+90 551 204 78 51</span>
+        </a>
+      </div>
+
+      <!-- Hero Telemetry Stats Strip -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl w-full">
+        <div class="bezel-outer-16">
+          <div class="bezel-inner-10 glass-card p-4 text-center">
+            <div class="text-2xl md:text-3xl font-extrabold text-white tracking-tight">60+</div>
+            <div class="text-xs font-medium text-slate-400 mt-1">Dev Fuar Projesi</div>
+          </div>
+        </div>
+        <div class="bezel-outer-16">
+          <div class="bezel-inner-10 glass-card p-4 text-center">
+            <div class="text-2xl md:text-3xl font-extrabold text-white tracking-tight">15+</div>
+            <div class="text-xs font-medium text-slate-400 mt-1">Yıllık Mimari Tecrübe</div>
+          </div>
+        </div>
+        <div class="bezel-outer-16">
+          <div class="bezel-inner-10 glass-card p-4 text-center">
+            <div class="text-2xl md:text-3xl font-extrabold text-emerald-400 tracking-tight">%100</div>
+            <div class="text-xs font-medium text-slate-400 mt-1">Müşteri Memnuniyeti</div>
+          </div>
+        </div>
+        <div class="bezel-outer-16">
+          <div class="bezel-inner-10 glass-card p-4 text-center">
+            <div class="text-2xl md:text-3xl font-extrabold text-indigo-400 tracking-tight">15 Dk</div>
+            <div class="text-xs font-medium text-slate-400 mt-1">Hızlı Geri Dönüş</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       HERO PRODUCT SHOWCASE (Double-Bezel Concentric SaaS Mockup)
+       ========================================================================== -->
+  <section class="relative px-4 max-w-6xl mx-auto -mt-6 mb-28 z-20">
+    <div class="bezel-outer-24">
+      <div class="bezel-inner-16 glass-card overflow-hidden border border-white/10 relative">
+        
+        <!-- Mockup Toolbar Header -->
+        <div class="px-5 py-3.5 bg-white/5 border-b border-white/10 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-rose-500/80"></span>
+            <span class="w-3 h-3 rounded-full bg-amber-500/80"></span>
+            <span class="w-3 h-3 rounded-full bg-emerald-500/80"></span>
+            <span class="ml-2 text-xs font-medium text-slate-400 flex items-center gap-1.5">
+              <i class="ph-bold ph-lock text-slate-500"></i> planicworks.projenicdesign.com/dashboard
+            </span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="px-2.5 py-1 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-[10.5px] font-bold text-emerald-400 flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 pulse-dot-emerald"></span>
+              Saha Canlı Akış
+            </span>
+          </div>
+        </div>
+
+        <!-- Mockup Canvas Body -->
+        <div class="p-6 grid grid-cols-1 md:grid-cols-12 gap-5 bg-[#090b11]">
+          
+          <!-- Left Column: Active Project Live Card -->
+          <div class="md:col-span-7 flex flex-col gap-4">
+            <div class="p-5 rounded-xl bg-white/5 border border-white/10 flex flex-col gap-3">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold uppercase tracking-wider text-indigo-400">Aktif Fuar Projesi</span>
+                <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">Ahşap Özel İmalat</span>
+              </div>
+              <h3 class="text-lg font-bold text-white tracking-tight">Dardanel WorldFood 2024 Fuar Standı</h3>
+              <p class="text-xs text-slate-400">TÜYAP Fuar ve Kongre Merkezi · 120 m² Özel Mimarî İmalat</p>
+              
+              <!-- Progress Bar -->
+              <div class="mt-2 flex flex-col gap-1.5">
+                <div class="flex justify-between text-[11px] font-semibold text-slate-300">
+                  <span>Saha Montaj & Kurulum Aşaması</span>
+                  <span class="text-emerald-400">%92 Tamamlandı</span>
+                </div>
+                <div class="w-full h-2 rounded-full bg-white/10 overflow-hidden">
+                  <div class="h-full bg-gradient-to-r from-indigo-500 to-emerald-400 rounded-full" style="width: 92%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Image Preview Card -->
+            <div class="relative rounded-xl overflow-hidden border border-white/10 group h-56">
+              <img src="assets/images/projects/ahsap_dardanel.jpg" alt="Dardanel Fuar Standı Render" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent p-4 flex flex-col justify-end">
+                <span class="text-[11px] font-bold text-emerald-400 uppercase tracking-widest">3D Real-time Render Engine</span>
+                <span class="text-sm font-bold text-white">Birebir Ölçülü 3D Mimari Görselleştirme</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive SaaS Telemetry Metrics -->
+          <div class="md:col-span-5 flex flex-col gap-4">
+            
+            <div class="p-4 rounded-xl bg-white/5 border border-white/10 flex flex-col gap-2">
+              <div class="flex justify-between items-center text-xs font-semibold text-slate-400">
+                <span>Stand Türü Dağılımı</span>
+                <i class="ph-bold ph-chart-pie text-indigo-400"></i>
+              </div>
+              <div class="flex items-center gap-3">
+                <div class="flex-1">
+                  <div class="text-xs font-bold text-white mb-1">Ahşap Stand (%55)</div>
+                  <div class="w-full h-1.5 rounded-full bg-indigo-500"></div>
+                </div>
+                <div class="flex-1">
+                  <div class="text-xs font-bold text-white mb-1">Maxima (%30)</div>
+                  <div class="w-full h-1.5 rounded-full bg-emerald-400"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white/5 border border-white/10 flex flex-col gap-2">
+              <div class="flex justify-between items-center text-xs font-semibold text-slate-400">
+                <span>Anahtar Teslim Garantisi</span>
+                <i class="ph-bold ph-shield-check text-emerald-400 text-base"></i>
+              </div>
+              <p class="text-xs text-slate-300">Fuar açılış saatinden önce 0 eksik ile canlı teslimat taahhüdü.</p>
+            </div>
+
+            <div class="p-4 rounded-xl bg-indigo-600/20 border border-indigo-500/30 flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-indigo-600 flex items-center justify-center text-white flex-shrink-0 shadow-lg shadow-indigo-600/40">
+                <i class="ph-bold ph-lightning text-lg"></i>
+              </div>
+              <div>
+                <div class="text-xs font-bold text-white">Anında Teklif Algoritması</div>
+                <div class="text-[11px] text-indigo-200">20 m² - 300 m² arası anında bütçe matrisi</div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ASYMMETRICAL BENTO FEATURE MATRIX (Layout Archetype 1)
+       ========================================================================== -->
+  <section id="bento" class="py-24 px-4 max-w-7xl mx-auto relative z-10">
+    
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-eyebrow text-indigo-400 text-xs font-semibold uppercase mb-4">
+        <span>Mimari Mimari Matris</span>
+      </div>
+      <h2 class="text-h2 text-3xl sm:text-5xl font-extrabold text-white mb-4">
+        Neden PlanicWorks SaaS Platformu?
+      </h2>
+      <p class="text-slate-400 text-base leading-relaxed">
+        Geleneksel fuar stant süreçlerindeki karmaşayı, hataları ve bütçe aşımını profesyonel mimari otomasyonla ortadan kaldırıyoruz.
+      </p>
+    </div>
+
+    <!-- Bento Grid Container -->
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+      
+      <!-- Bento Card 1 (Large 8-Cols): 3D Design & Render Engine -->
+      <div class="md:col-span-8 bezel-outer-24 glass-card-hover">
+        <div class="bezel-inner-16 glass-card p-7 h-full flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-indigo-500/15 border border-indigo-500/30 flex items-center justify-center text-indigo-400 text-2xl mb-6">
+              <i class="ph-bold ph-cube-transparent"></i>
+            </div>
+            <span class="text-xs font-bold uppercase tracking-wider text-indigo-400 mb-2 block">Özel 3D Görselleştirme</span>
+            <h3 class="text-2xl font-bold text-white tracking-tight mb-3">Birebir Ölçülü 3D Mimari Görselleştirme Engine</h3>
+            <p class="text-slate-400 text-sm leading-relaxed max-w-xl">
+              Deneyimli mimarlarımız markanızın vizyonuna uygun ahşap, maxima veya modüler stantları 3D render olarak tasarlar. Fuar alanında ne göreceğinizi önceden onaylarsınız.
+            </p>
+          </div>
+          
+          <div class="mt-8 grid grid-cols-3 gap-3">
+            <div class="p-3 rounded-lg bg-white/5 border border-white/10 text-center">
+              <div class="text-xs font-bold text-white">Ahşap İmalat</div>
+              <div class="text-[10px] text-slate-400 mt-0.5">Lüks & Özel</div>
+            </div>
+            <div class="p-3 rounded-lg bg-white/5 border border-white/10 text-center">
+              <div class="text-xs font-bold text-white">Maxima Sistem</div>
+              <div class="text-[10px] text-slate-400 mt-0.5">Şık Alüminyum</div>
+            </div>
+            <div class="p-3 rounded-lg bg-white/5 border border-white/10 text-center">
+              <div class="text-xs font-bold text-white">Modüler Sistem</div>
+              <div class="text-[10px] text-slate-400 mt-0.5">Pratik & Ekonomik</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bento Card 2 (4-Cols): Fast Delivery -->
+      <div class="md:col-span-4 bezel-outer-24 glass-card-hover">
+        <div class="bezel-inner-16 glass-card p-7 h-full flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-2xl mb-6">
+              <i class="ph-bold ph-clock-afternoon"></i>
+            </div>
+            <span class="text-xs font-bold uppercase tracking-wider text-emerald-400 mb-2 block">Zamanında Teslimat</span>
+            <h3 class="text-xl font-bold text-white tracking-tight mb-3">Saha Açılış Saati Garantisi</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">
+              Donanımlı marangozhanemiz ve uzman saha ekibimiz ile stantları fuar kapıları açılmadan önce eksiksiz teslim ediyoruz.
+            </p>
+          </div>
+          <div class="mt-6 p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/25 flex items-center gap-3">
+            <i class="ph-bold ph-check-circle text-emerald-400 text-xl flex-shrink-0"></i>
+            <span class="text-xs font-semibold text-emerald-200">Sözleşmeli Zamanında Teslimat Maddesi</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bento Card 3 (4-Cols): Global Brands -->
+      <div class="md:col-span-4 bezel-outer-24 glass-card-hover">
+        <div class="bezel-inner-16 glass-card p-7 h-full flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 text-2xl mb-6">
+              <i class="ph-bold ph-trophy"></i>
+            </div>
+            <span class="text-xs font-bold uppercase tracking-wider text-amber-400 mb-2 block">Güçlü Referanslar</span>
+            <h3 class="text-xl font-bold text-white tracking-tight mb-3">Lider Markaların Tercihi</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">
+              Mercedes-Benz, TÜRASAŞ, Yamaha, Dardanel, STM, İş Bankası ve Alp Havacılık gibi dev markaların fuar mimarisini yönettik.
+            </p>
+          </div>
+          <div class="mt-6 flex items-center gap-2">
+            <span class="text-xs font-bold px-3 py-1.5 rounded-full bg-white/10 text-white border border-white/10">60+ Dev Fuar</span>
+            <span class="text-xs font-bold px-3 py-1.5 rounded-full bg-white/10 text-white border border-white/10">Uluslararası</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bento Card 4 (8-Cols): End-to-End Operation -->
+      <div class="md:col-span-8 bezel-outer-24 glass-card-hover">
+        <div class="bezel-inner-16 glass-card p-7 h-full flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-purple-500/15 border border-purple-500/30 flex items-center justify-center text-purple-400 text-2xl mb-6">
+              <i class="ph-bold ph-[#0c0e17] ph-infinity text-purple-400"></i>
+            </div>
+            <span class="text-xs font-bold uppercase tracking-wider text-purple-400 mb-2 block">Anahtar Teslim Hizmet</span>
+            <h3 class="text-2xl font-bold text-white tracking-tight mb-3">Konseptten Söküme Uçtan Uca Yönetim</h3>
+            <p class="text-slate-400 text-sm leading-relaxed max-w-xl">
+              Tasarım, 3D render, ahşap atölye imalatı, nakliye, saha montajı, fuar süresince teknik destek ve fuar sonrası söküm işlemlerini eksiksiz yürütüyoruz.
+            </p>
+          </div>
+
+          <div class="mt-8 flex flex-wrap items-center gap-4 text-xs font-semibold text-slate-300">
+            <div class="flex items-center gap-2 bg-white/5 border border-white/10 px-3.5 py-2 rounded-full">
+              <i class="ph-bold ph-pen text-indigo-400"></i> 1. Tasarım & 3D Render
+            </div>
+            <div class="flex items-center gap-2 bg-white/5 border border-white/10 px-3.5 py-2 rounded-full">
+              <i class="ph-bold ph-hammer text-amber-400"></i> 2. Atölye İmalatı
+            </div>
+            <div class="flex items-center gap-2 bg-white/5 border border-white/10 px-3.5 py-2 rounded-full">
+              <i class="ph-bold ph-truck text-emerald-400"></i> 3. Saha Montajı
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PORTFOLIO SHOWCASE (Interactive Grid & Lightbox)
+       ========================================================================== -->
+  <section id="portfolio" class="py-24 px-4 max-w-7xl mx-auto relative z-10">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-eyebrow text-emerald-400 text-xs font-semibold uppercase mb-3">
+          <span>Proje Galerisi</span>
+        </div>
+        <h2 class="text-h2 text-3xl sm:text-4xl font-extrabold text-white">Referans Projelerimiz</h2>
+      </div>
+
+      <!-- Portfolio Category Filter Pills -->
+      <div class="flex flex-wrap gap-2 text-xs font-semibold">
+        <button onclick="filterPortfolio('all')" class="port-filter-btn active px-4 py-2 rounded-full bg-indigo-600 text-white border border-indigo-500 shadow-lg shadow-indigo-600/30">Tümü</button>
+        <button onclick="filterPortfolio('ahsap')" class="port-filter-btn px-4 py-2 rounded-full bg-white/5 text-slate-300 border border-white/10 hover:bg-white/10">Ahşap Stand</button>
+        <button onclick="filterPortfolio('maxima')" class="port-filter-btn px-4 py-2 rounded-full bg-white/5 text-slate-300 border border-white/10 hover:bg-white/10">Maxima Stand</button>
+        <button onclick="filterPortfolio('modular')" class="port-filter-btn px-4 py-2 rounded-full bg-white/5 text-slate-300 border border-white/10 hover:bg-white/10">Modüler Stand</button>
+        <button onclick="filterPortfolio('icmekan')" class="port-filter-btn px-4 py-2 rounded-full bg-white/5 text-slate-300 border border-white/10 hover:bg-white/10">İç Mekan & Showroom</button>
+      </div>
+    </div>
+
+    <!-- Portfolio Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="portfolioGrid">
+      
+      <!-- Item 1: Dardanel -->
+      <div class="port-item bezel-outer-16 glass-card-hover" data-cat="ahsap" onclick="openLightbox('assets/images/projects/ahsap_dardanel.jpg', 'Dardanel WorldFood 2024', 'Ahşap Stand · TÜYAP İstanbul')">
+        <div class="bezel-inner-10 overflow-hidden relative group cursor-pointer h-72">
+          <img src="assets/images/projects/ahsap_dardanel.jpg" alt="Dardanel Standı" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent p-5 flex flex-col justify-end">
+            <span class="text-[11px] font-bold text-indigo-400 uppercase tracking-widest">Özel Ahşap Stand</span>
+            <h3 class="text-lg font-bold text-white">Dardanel WorldFood 2024</h3>
+            <p class="text-xs text-slate-300 mt-1"><i class="ph-bold ph-map-pin text-indigo-400"></i> TÜYAP / İstanbul</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 2: Mercedes-Benz -->
+      <div class="port-item bezel-outer-16 glass-card-hover" data-cat="ahsap" onclick="openLightbox('assets/images/projects/ahsap_mercedes.jpg', 'Mercedes-Benz Türk İK Standı', 'Ahşap Stand · İstanbul')">
+        <div class="bezel-inner-10 overflow-hidden relative group cursor-pointer h-72">
+          <img src="assets/images/projects/ahsap_mercedes.jpg" alt="Mercedes-Benz Standı" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent p-5 flex flex-col justify-end">
+            <span class="text-[11px] font-bold text-indigo-400 uppercase tracking-widest">Özel Ahşap Stand</span>
+            <h3 class="text-lg font-bold text-white">Mercedes-Benz Türk İK Standı</h3>
+            <p class="text-xs text-slate-300 mt-1"><i class="ph-bold ph-map-pin text-indigo-400"></i> İstanbul</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3: Yamaha -->
+      <div class="port-item bezel-outer-16 glass-card-hover" data-cat="maxima" onclick="openLightbox('assets/images/projects/maxima_yamaha.jpg', 'Yamaha BoatShow 2024', 'Maxima Stand · Yenikapı İstanbul')">
+        <div class="bezel-inner-10 overflow-hidden relative group cursor-pointer h-72">
+          <img src="assets/images/projects/maxima_yamaha.jpg" alt="Yamaha Standı" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent p-5 flex flex-col justify-end">
+            <span class="text-[11px] font-bold text-emerald-400 uppercase tracking-widest">Maxima Stand</span>
+            <h3 class="text-lg font-bold text-white">Yamaha BoatShow 2024</h3>
+            <p class="text-xs text-slate-300 mt-1"><i class="ph-bold ph-map-pin text-emerald-400"></i> Yenikapı / İstanbul</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 4: TÜRASAŞ InnoTrans Berlin -->
+      <div class="port-item bezel-outer-16 glass-card-hover" data-cat="modular" onclick="openLightbox('assets/images/projects/modular_turasas.jpg', 'TÜRASAŞ InnoTrans Berlin', 'Modüler & Uluslararası · Messe Berlin')">
+        <div class="bezel-inner-10 overflow-hidden relative group cursor-pointer h-72">
+          <img src="assets/images/projects/modular_turasas.jpg" alt="TÜRASAŞ Berlin Standı" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent p-5 flex flex-col justify-end">
+            <span class="text-[11px] font-bold text-amber-400 uppercase tracking-widest">Modüler & Uluslararası</span>
+            <h3 class="text-lg font-bold text-white">TÜRASAŞ InnoTrans Berlin</h3>
+            <p class="text-xs text-slate-300 mt-1"><i class="ph-bold ph-map-pin text-amber-400"></i> Berlin / Almanya</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 5: STM SahaExpo -->
+      <div class="port-item bezel-outer-16 glass-card-hover" data-cat="modular" onclick="openLightbox('assets/images/projects/modular_stm.jpg', 'STM SahaExpo Savunma 2023', 'Modüler Stand · İFM İstanbul')">
+        <div class="bezel-inner-10 overflow-hidden relative group cursor-pointer h-72">
+          <img src="assets/images/projects/modular_stm.jpg" alt="STM Standı" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent p-5 flex flex-col justify-end">
+            <span class="text-[11px] font-bold text-amber-400 uppercase tracking-widest">Modüler Stand</span>
+            <h3 class="text-lg font-bold text-white">STM SahaExpo Savunma 2023</h3>
+            <p class="text-xs text-slate-300 mt-1"><i class="ph-bold ph-map-pin text-amber-400"></i> İFM / İstanbul</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 6: Perotti Showroom -->
+      <div class="port-item bezel-outer-16 glass-card-hover" data-cat="icmekan" onclick="openLightbox('assets/images/projects/icmekan_perotti.jpg', 'Perotti İstoç Showroom 2024', 'İç Mekan & Showroom · İstoç')">
+        <div class="bezel-inner-10 overflow-hidden relative group cursor-pointer h-72">
+          <img src="assets/images/projects/icmekan_perotti.jpg" alt="Perotti Showroom" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent p-5 flex flex-col justify-end">
+            <span class="text-[11px] font-bold text-purple-400 uppercase tracking-widest">İç Mekan & Showroom</span>
+            <h3 class="text-lg font-bold text-white">Perotti İstoç Showroom 2024</h3>
+            <p class="text-xs text-slate-300 mt-1"><i class="ph-bold ph-map-pin text-purple-400"></i> İstoç / İstanbul</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       INTERACTIVE QUOTATION & STAND BUDGET CALCULATOR
+       ========================================================================== -->
+  <section id="calculator" class="py-24 px-4 max-w-5xl mx-auto relative z-10">
+    <div class="bezel-outer-24">
+      <div class="bezel-inner-16 glass-card p-8 md:p-12 border border-white/10">
+        
+        <div class="text-center max-w-2xl mx-auto mb-10">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/15 border border-indigo-500/30 text-indigo-300 text-xs font-semibold uppercase mb-3">
+            <i class="ph-bold ph-calculator text-base"></i>
+            <span>Akıllı Bütçe Algoritması</span>
+          </div>
+          <h2 class="text-h2 text-3xl md:text-4xl font-extrabold text-white mb-3">
+            Standınız İçin Anında Ön Teklif Alın
+          </h2>
+          <p class="text-slate-400 text-sm">
+            Stand türünüzü ve metrekarenizi seçerek tahmini bütçe aralığını anında görün.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+          
+          <!-- Inputs Column -->
+          <div class="md:col-span-7 flex flex-col gap-6">
+            
+            <!-- Stand Type Selector -->
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">Stand Türü Seçin:</label>
+              <select id="standType" onchange="calculateBudget()" class="w-full h-11 px-4 rounded-xl bg-white/5 border border-white/10 text-white text-sm font-semibold focus:outline-none focus:border-indigo-500 transition-colors">
+                <option value="wood" class="bg-slate-900 text-white">Ahşap Stand (Özel İmalat & Lüks)</option>
+                <option value="maxima" class="bg-slate-900 text-white">Maxima Stand (Alüminyum & Şık)</option>
+                <option value="modular" class="bg-slate-900 text-white">Modüler Stand (Ekonomik & Pratik)</option>
+              </select>
+            </div>
+
+            <!-- Meterage Range Slider -->
+            <div>
+              <div class="flex justify-between items-center mb-2">
+                <label class="text-xs font-bold uppercase tracking-wider text-slate-300">Stand Alanı (m²):</label>
+                <span id="sizeValText" class="text-sm font-extrabold text-indigo-400 px-3 py-1 rounded-full bg-indigo-500/20 border border-indigo-500/30">60 m²</span>
+              </div>
+              <input type="range" id="sizeRange" min="20" max="300" step="5" value="60" oninput="calculateBudget()" class="w-full cursor-pointer">
+              <div class="flex justify-between text-[10px] font-semibold text-slate-400 mt-1">
+                <span>20 m²</span>
+                <span>150 m²</span>
+                <span>300 m²</span>
+              </div>
+            </div>
+
+            <!-- Location Input -->
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">Fuar Şehri / Alanı:</label>
+              <input type="text" id="cityName" placeholder="Örn: İstanbul Fuar Merkezi (İFM) / TÜYAP / Yurt Dışı" class="w-full h-11 px-4 rounded-xl bg-white/5 border border-white/10 text-white text-sm font-medium focus:outline-none focus:border-indigo-500 transition-colors">
+            </div>
+
+          </div>
+
+          <!-- Price Display Column -->
+          <div class="md:col-span-5 bezel-outer-16">
+            <div class="bezel-inner-10 glass-card p-6 text-center flex flex-col items-center justify-between h-full border border-indigo-500/30">
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Tahmini Bütçe Aralığı</span>
+              
+              <div id="estimatePrice" class="text-2xl lg:text-3xl font-extrabold text-white my-4 tracking-tight">
+                ₺180,000 - ₺240,000
+              </div>
+
+              <p class="text-[11px] text-slate-400 mb-6">
+                *Fiyatlar 3D mimari imalat, nakliye ve sahada montaj dahil tahmini aralıktır.
+              </p>
+
+              <button onclick="requestDetailedQuote()" class="w-full h-12 rounded-full bg-gradient-to-r from-indigo-600 to-indigo-500 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-indigo-600/30 active:scale-95 transition-all">
+                <i class="ph-bold ph-paper-plane-tilt text-base"></i> Detaylı Teklif İste
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT SECTION
+       ========================================================================== -->
+  <section id="contact" class="py-24 px-4 max-w-7xl mx-auto relative z-10">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+      
+      <!-- Info Column -->
+      <div class="md:col-span-5 flex flex-col justify-between">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-eyebrow text-indigo-400 text-xs font-semibold uppercase mb-3">
+            <span>Bize Ulaşın</span>
+          </div>
+          <h2 class="text-h2 text-3xl sm:text-4xl font-extrabold text-white mb-4">
+            Projenizi Mimar Ekibimizle Görüşün
+          </h2>
+          <p class="text-slate-400 text-sm leading-relaxed mb-8">
+            Fuar tarihi, metrekare ve stant konseptiniz için atölyemizi ziyaret edebilir veya hemen iletişime geçebilirsiniz.
+          </p>
+
+          <div class="flex flex-col gap-4">
+            <div class="p-4 rounded-xl bg-white/5 border border-white/10 flex items-start gap-4">
+              <i class="ph-bold ph-map-pin text-indigo-400 text-2xl mt-1"></i>
+              <div>
+                <h4 class="text-sm font-bold text-white">Atölye & Adres</h4>
+                <p class="text-xs text-slate-400 mt-0.5 leading-relaxed">
+                  Tevfikbey Mah. İbrahim Kalfa Sk. No: 25/B<br>Küçükçekmece / İstanbul (PK: 34295)
+                </p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white/5 border border-white/10 flex items-center gap-4">
+              <i class="ph-bold ph-phone-call text-indigo-400 text-2xl"></i>
+              <div>
+                <h4 class="text-sm font-bold text-white">Direct Line & WhatsApp</h4>
+                <a href="tel:+905512047851" class="text-sm font-extrabold text-indigo-300 hover:text-white transition-colors">+90 551 204 78 51</a>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white/5 border border-white/10 flex items-center gap-4">
+              <i class="ph-bold ph-envelope-simple text-indigo-400 text-2xl"></i>
+              <div>
+                <h4 class="text-sm font-bold text-white">E-Posta</h4>
+                <a href="mailto:info@projenicdesign.com" class="text-xs font-semibold text-slate-300 hover:text-white transition-colors">info@projenicdesign.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form Column -->
+      <div class="md:col-span-7 bezel-outer-24">
+        <div class="bezel-inner-16 glass-card p-8 border border-white/10">
+          <h3 class="text-xl font-bold text-white mb-6">Mesaj Gönderin</h3>
+          
+          <form onsubmit="handleContactSubmit(event)" class="flex flex-col gap-4">
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">Adınız Soyadınız / Firma Adı:</label>
+              <input type="text" id="contactName" required placeholder="Ahmet Yılmaz - XYZ A.Ş." class="w-full h-11 px-4 rounded-xl bg-white/5 border border-white/10 text-white text-sm font-medium focus:outline-none focus:border-indigo-500 transition-colors">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">Telefon Numarası:</label>
+              <input type="tel" id="contactPhone" required placeholder="05XX XXX XX XX" class="w-full h-11 px-4 rounded-xl bg-white/5 border border-white/10 text-white text-sm font-medium focus:outline-none focus:border-indigo-500 transition-colors">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">Mesajınız & Fuar Detayları:</label>
+              <textarea id="contactMsg" rows="4" placeholder="Fuar adı, tarihi, m² ve özel stant beklentilerinizi yazabilirsiniz..." class="w-full p-4 rounded-xl bg-white/5 border border-white/10 text-white text-sm font-medium focus:outline-none focus:border-indigo-500 transition-colors"></textarea>
+            </div>
+
+            <button type="submit" class="h-12 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-indigo-600/30 active:scale-95 transition-all mt-2">
+              <i class="ph-bold ph-paper-plane text-base"></i> Mesajı Gönder
+            </button>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="py-12 border-t border-white/10 relative z-10 px-4">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-xs text-slate-400">
+      <div class="flex items-center gap-2">
+        <div class="w-6 h-6 rounded-full bg-indigo-600 flex items-center justify-center text-white">
+          <i class="ph-bold ph-cube text-xs"></i>
+        </div>
+        <span class="font-bold text-white text-sm">PlanicWorks by Projenic Design</span>
+      </div>
+      <div>&copy; 2026 Projenic Design. Tüm hakları saklıdır. Awwwards-Tier Architectural SaaS Engine.</div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODALS ("Sizi Arayalım" & Lightbox)
+       ========================================================================== -->
+  <!-- Call Modal -->
+  <div id="callModal" class="hidden fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-xl flex items-center justify-center p-4">
+    <div class="bezel-outer-24 max-w-md w-full">
+      <div class="bezel-inner-16 glass-card p-8 border border-white/10 relative text-center">
+        <button onclick="closeCallModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white text-xl">&times;</button>
+        
+        <div class="w-14 h-14 rounded-full bg-indigo-500/20 text-indigo-400 border border-indigo-500/30 flex items-center justify-center mx-auto mb-4 text-2xl">
+          <i class="ph-bold ph-headset"></i>
+        </div>
+        
+        <h3 class="text-xl font-bold text-white mb-2">Sizi Arayalım!</h3>
+        <p class="text-xs text-slate-400 mb-6">Numaranızı bırakın, mimar ekibimiz 15 dakika içinde sizi arasın.</p>
+
+        <form onsubmit="handleCallSubmit(event)" class="flex flex-col gap-4">
+          <input type="tel" id="callPhone" required placeholder="05XX XXX XX XX" class="h-12 px-4 rounded-xl bg-white/5 border border-white/10 text-white text-center font-bold text-base focus:outline-none focus:border-indigo-500">
+          <button type="submit" class="h-11 rounded-full bg-indigo-600 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-indigo-600/30 active:scale-95 transition-all">
+            <i class="ph-bold ph-phone-call"></i> Hemen Arama Talebi Oluştur
+          </button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="lightboxModal" class="hidden fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-2xl flex items-center justify-center p-4">
+    <div class="bezel-outer-24 max-w-4xl w-full">
+      <div class="bezel-inner-16 glass-card p-6 border border-white/10 relative">
+        <button onclick="closeLightbox()" class="absolute top-4 right-4 text-white text-2xl bg-black/40 w-9 h-9 rounded-full flex items-center justify-center z-10">&times;</button>
+        <img id="lightboxImg" src="" alt="Proje" class="w-full max-h-[70vh] object-cover rounded-xl mb-4">
+        <h3 id="lightboxTitle" class="text-xl font-bold text-white"></h3>
+        <p id="lightboxSub" class="text-xs font-semibold text-indigo-400 mt-1"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       JAVASCRIPT INTERACTIVE LOGIC
+       ========================================================================== -->
+  <script>
+    // Real-Time Budget Calculation Matrix
+    function calculateBudget() {
+      const type = document.getElementById('standType').value;
+      const size = parseInt(document.getElementById('sizeRange').value);
+      
+      document.getElementById('sizeValText').innerText = size + ' m²';
+
+      let basePricePerM2 = 3000; // default wood
+      if (type === 'maxima') basePricePerM2 = 2200;
+      if (type === 'modular') basePricePerM2 = 1400;
+
+      const minTotal = size * basePricePerM2;
+      const maxTotal = Math.round(minTotal * 1.35);
+
+      const formattedMin = '₺' + minTotal.toLocaleString('tr-TR');
+      const formattedMax = '₺' + maxTotal.toLocaleString('tr-TR');
+
+      document.getElementById('estimatePrice').innerText = `${formattedMin} - ${formattedMax}`;
+    }
+
+    // Portfolio Filtering
+    function filterPortfolio(cat) {
+      const items = document.querySelectorAll('.port-item');
+      const buttons = document.querySelectorAll('.port-filter-btn');
+
+      buttons.forEach(btn => {
+        btn.classList.remove('bg-indigo-600', 'text-white', 'shadow-indigo-600/30');
+        btn.classList.add('bg-white/5', 'text-slate-300');
+      });
+
+      event.currentTarget.classList.remove('bg-white/5', 'text-slate-300');
+      event.currentTarget.classList.add('bg-indigo-600', 'text-white', 'shadow-indigo-600/30');
+
+      items.forEach(item => {
+        if (cat === 'all' || item.getAttribute('data-cat') === cat) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+
+    // Lightbox Controls
+    function openLightbox(imgUrl, title, sub) {
+      document.getElementById('lightboxImg').src = imgUrl;
+      document.getElementById('lightboxTitle').innerText = title;
+      document.getElementById('lightboxSub').innerText = sub;
+      document.getElementById('lightboxModal').classList.remove('hidden');
+    }
+    function closeLightbox() {
+      document.getElementById('lightboxModal').classList.add('hidden');
+    }
+
+    // Call Modal Controls
+    function openCallModal() {
+      document.getElementById('callModal').classList.remove('hidden');
+    }
+    function closeCallModal() {
+      document.getElementById('callModal').classList.add('hidden');
+    }
+
+    // Mobile Menu Controls
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('hidden');
+    }
+
+    // Submit Handlers
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('contactName').value;
+      alert(`Teşekkürler ${name}! Mesajınız başarıyla iletildi. Mimar ekibimiz en kısa sürede dönüş yapacaktır.`);
+    }
+
+    function handleCallSubmit(e) {
+      e.preventDefault();
+      const phone = document.getElementById('callPhone').value;
+      alert(`Arama talebiniz alındı (${phone}). 15 dakika içinde sizi arayacağız!`);
+      closeCallModal();
+    }
+
+    function requestDetailedQuote() {
+      const size = document.getElementById('sizeRange').value;
+      const type = document.getElementById('standType').value;
+      alert(`${size} m² ${type.toUpperCase()} standı için detaylı teklif talebiniz alındı! Mimar ekibimiz sizinle iletişime geçiyor.`);
+    }
+
+    // Initialize budget on load
+    calculateBudget();
+  </script>
+</body>
+</html>
