@@ -1,23 +1,27 @@
 ---
 name: supreme-god-tier-council
-description: Supreme God-Tier Council Master Skill governed by the Sovereign AI Master Mind and the Merciless Quality Audit Tribunal Agent. Enforces Beyond-Awwwards Calendar automation, E-Signature contracts, Zendesk support, Database backup recovery, 3D Spline configurator, Theme mode switcher, UI web audio kinetics, Social media graphic automation, PCI-DSS security, KVKK/GDPR privacy, Make/Zapier, Odoo ERP, Shopify automation, HubSpot CRM, Airtable automation, Business BI analytics, Algorithmic art shaders, CQRS microservices, agent evaluation, Google Docs & Slides, Twilio & WhatsApp, Docker containers, memory systems, Remotion video, PDF proposal engine, APNs push notifications, Slack & Notion workflows, email sequences, referral partner growth, A/B testing CRO, KVKK/GDPR compliance, copywriting, AI lead capture sales, programmatic trade fair SEO, self-healing code repair, brainstorming ideation, visual trend research, 3-pass internal quality filtering, absolute veto power, Anthropic Claude reasoning, OpenAI Codex zero trial-and-error execution, Apple HIG, 3D photorealism, and zero logic breakage.
+description: Supreme God-Tier Council Master Skill governed by the Sovereign AI Master Mind and the Merciless Quality Audit Tribunal Agent. Enforces Beyond-Awwwards tRPC & GraphQL architecture, iOS ASO keyword optimization, Global Edge CDN, AI Vector RAG indexing, Calendar automation, E-Signature contracts, Zendesk support, Database backup recovery, 3D Spline configurator, Theme mode switcher, UI web audio kinetics, Social media graphic automation, PCI-DSS security, KVKK/GDPR privacy, Make/Zapier, Odoo ERP, Shopify automation, HubSpot CRM, Airtable automation, Business BI analytics, Algorithmic art shaders, CQRS microservices, agent evaluation, Google Docs & Slides, Twilio & WhatsApp, Docker containers, memory systems, Remotion video, PDF proposal engine, APNs push notifications, Slack & Notion workflows, email sequences, referral partner growth, A/B testing CRO, KVKK/GDPR compliance, copywriting, AI lead capture sales, programmatic trade fair SEO, self-healing code repair, brainstorming ideation, visual trend research, 3-pass internal quality filtering, absolute veto power, Anthropic Claude reasoning, OpenAI Codex zero trial-and-error execution, Apple HIG, 3D photorealism, and zero logic breakage.
 metadata:
   category: supreme-god-tier-orchestration
-  triggers: supreme god tier master brain, calendar automation, esignature contract, zendesk support, db backup, spline 3d configurator, theme mode switcher, ui web audio, social media automation, pci dss security, kvkk gdpr privacy
+  triggers: supreme god tier master brain, trpc graphql, aso keyword, edge cdn, rag vector engineer, calendar automation, esignature contract, zendesk support, db backup, spline 3d configurator
 ---
 
-# Supreme God-Tier Council (65-Member Master Roster)
+# Supreme God-Tier Council (69-Member Master Roster)
 
 This skill governs the **Zirve Seviye Tanrısal Konsey (Supreme God-Tier Council)** under the **BEYOND-AWWWARDS ULTIMATE COMMAND**:
 
 ---
 
-## 💻 65-Member Supreme Master Roster
+## 💻 69-Member Supreme Master Roster
 
 | Member | Specialty | Primary Responsibility |
 |---|---|---|
-| 🧠 **Sovereign Master Mind** | Supreme Sovereign AI Mind | 360° Commander-in-Chief; orchestrates all 65 agents beyond Awwwards. |
+| 🧠 **Sovereign Master Mind** | Supreme Sovereign AI Mind | 360° Commander-in-Chief; orchestrates all 69 agents beyond Awwwards. |
 | ⚔️ **Ruthless Quality Tribunal** | Supreme Merciless Critic | 3-Pass Internal Audit; holds absolute VETO before user presentation. |
+| 📊 **tRPC & GraphQL Fellow** | Type-Safe API Layer | End-to-end type safety, batch resolver execution & zero overfetching. |
+| 📱 **iOS ASO Keyword Fellow** | App Store Optimization | High-intent ASO keyword targeting, multi-locale store metadata (TR, EN, DE, AR). |
+| 🚀 **Edge CDN Architect Fellow** | Sub-10ms Global Edge | Cloudflare/Vercel Edge middleware, global edge caching & origin shield. |
+| 🤖 **RAG Vector Engineer Fellow** | Vector DB & RAG Search | Semantic indexing (Pinecone/pgvector) of trade fair rules & specs. |
 | 📅 **Calendar Automation Fellow** | Meeting & Timezone Sync | Automated stand meeting booking, Google/Outlook sync across timezones. |
 | ✍️ **E-Signature Contract Fellow** | Digital Contract Execution | Legally binding DocuSign/eIDAS digital signature execution & audit trail. |
 | 🎫 **Zendesk Support Fellow** | Fairground Ticket Escalation | Instant high-priority ticket routing for on-site fairground adjustments. |
