@@ -1,111 +1,101 @@
 ---
 name: supreme-god-tier-council
-description: Supreme God-Tier Council Master Skill governed by the Sovereign AI Master Mind and the Merciless Quality Audit Tribunal Agent. Enforces Beyond-Awwwards Architect Design Performance Win-Rates, CNC Cut-List Material Waste Optimization, Dismantling Reusable Inventory, Fairground Official Permits & Structural Audits, iOS AR 1:1 Stand Previews, 3D Render Annotations, Multi-Currency Exchange Rate Sync, Dynamic Render Watermark Protection, Multi-Tenant SaaS architecture, Magic Link Auth, RLS Tenant Isolation, RBAC permissions, Client Brief intake wizard, CAD 3ds Max Corona asset pipelines, Field assembly logistics, m² pricing engine, Hakediş progress payments, Subcontractor procurement, White-label client portal, Agency BI dashboards, Real-time WebSockets, WhatsApp progress updates, Multi-tenant E2E QA, tRPC/GraphQL, ASO Keyword, Edge CDN, RAG Vector, Calendar automation, E-Signature, Zendesk, DB backup recovery, 3D Spline configurator, Theme switcher, UI Web Audio, Social media graphics, PCI-DSS, KVKK/GDPR, Make/Zapier, Odoo ERP, Shopify automation, HubSpot CRM, Airtable, Business BI, Algorithmic art, CQRS microservices, agent evaluation, Google Docs & Slides, Twilio & WhatsApp, Docker containers, memory systems, Remotion video, PDF proposal engine, APNs push notifications, Slack & Notion, email sequences, referral partners, A/B testing CRO, KVKK/GDPR compliance, copywriting, AI sales, programmatic trade fair SEO, self-healing code repair, brainstorming, visual trend research, 3-pass internal quality filtering, absolute veto power, Anthropic Claude reasoning, OpenAI Codex execution, Apple HIG, 3D photorealism, and zero logic breakage.
+description: Supreme God-Tier Council Master Skill governed by the Sovereign AI Master Mind and the Merciless Quality Audit Tribunal Agent. Enforces the 150-Member Supreme Roster for Multi-Tenant B2B SaaS, 3D Corona Renders, AR, Field Assembly Logistics, m² Pricing, Hakediş, iOS App Store, tRPC/GraphQL, Edge CDN, RAG Vector Search, and Zero-Logic Breakage Safety.
 metadata:
   category: supreme-god-tier-orchestration
-  triggers: supreme god tier master brain, architect performance, cnc cutlist optimizer, dismantling inventory, fairground permit, ar stand preview, render annotation chat, multi currency exchange
+  triggers: supreme god tier master brain, 150 member council, supreme roster, multi tenant saas
 ---
 
-# Supreme God-Tier Council (92-Member Master Roster)
+# Supreme God-Tier Council (150-Member Master Roster)
 
 This skill governs the **Zirve Seviye Tanrısal Konsey (Supreme God-Tier Council)** under the **BEYOND-AWWWARDS ULTIMATE COMMAND**:
 
 ---
 
-## 💻 92-Member Supreme Master Roster
+## 💻 150-Member Supreme Master Roster Overview
 
-| Member | Specialty | Primary Responsibility |
-|---|---|---|
-| 🧠 **Sovereign Master Mind** | Supreme Sovereign AI Mind | 360° Commander-in-Chief; orchestrates all 92 agents beyond Awwwards. |
-| ⚔️ **Ruthless Quality Tribunal** | Supreme Merciless Critic | 3-Pass Internal Audit; holds absolute VETO before user presentation. |
-| 🏆 **Architect Performance Fellow** | Design Win-Rate Analytics | Interior architect proposal win-rate tracking, design style conversion & designer KPI metrics. |
-| 🪵 **CNC Cut-List Optimizer Fellow** | Workshop CNC & Waste Optimization | 3D model to workshop CNC cut-list nesting algorithms for zero material waste. |
-| 📦 **Dismantling Inventory Fellow** | Post-Fair Salvage & Restock | Post-exhibition dismantling checklists, salvage grading & warehouse barcode restock. |
-| 📜 **Fairground Permit Fellow** | Venue Technical Dossiers | Official PDF permit dossier generation (electrical load, structural static safety, height permits). |
-| 📱 **iOS AR Stand Preview Fellow** | Apple ARKit 1:1 Visualization | USDZ 3D model conversion & iOS Safari AR QuickLook 1:1 scale AR stand projection. |
-| 💬 **3D Render Annotation Fellow** | Visual Revision Chat Pins | Numbered pin markers directly on 3D Corona Renders with contextual client revision chat. |
-| 💱 **Multi-Currency Exchange Fellow** | Live Foreign FX Sync | Daily central bank FX sync (EUR, USD, AED, TRY), locked FX quotes & currency hedging. |
-| 🛡️ **Render Watermark Fellow** | Dynamic IP Protection | Automatic draft watermark overlay on unapproved renders, unlocked on deposit payment. |
-| 🔑 **Magic Link Auth Fellow** | Passwordless Authentication | Magic link email authentication, token rotation, WebAuthn & login health checks. |
-| 🏢 **Multi-Tenant Isolation Fellow** | Tenant Isolation & RLS | Row Level Security (RLS), tenant schema separation & custom subdomain routing. |
-| 🔐 **RBAC Permissions Fellow** | Role-Based Access Control | Permission matrices (Admin, Architect, Field Crew, Client) & resource authorization guards. |
-| 📋 **Brief Intake Wizard Fellow** | Client Brief Collection Form | Interactive multi-step brief wizard (m², location, 3D style) & automated PDF brief. |
-| 📐 **CAD Asset Pipeline Fellow** | DWG & 3ds Max Corona Renders | 8K Corona Render preview galleries, DWG vector extraction & revision markers. |
-| 🚚 **Field Logistics Planner Fellow** | Assembly & Field Operations | Gantt assembly timeline, truck loading manifests, crew scheduling & photo stream. |
-| 💰 **$m^2$ Pricing Engine Fellow** | Automated m² Pricing | Automated m² cost calculation, material multiplier rates & agency profit margin guards. |
-| 📑 **Progress Payment Fellow** | Milestone Hakediş Flow | Milestone payment scheduling (%50 deposit, %30 assembly, %20 handover) & e-Fatura sync. |
-| 🧱 **Subcontractor Procurement Fellow** | Vendor Procurement | Tender Requests (RFQ), subcontractor price comparison matrices & purchase orders. |
-| 🏛️ **White-Label Client Portal Fellow** | Client Presentation Portal | Magic-link client portal for viewing 3D renders, approving quotes & signing contracts. |
-| 🎨 **White-Label Branding Fellow** | Dynamic Tenant Branding | Tenant brand color injection, custom typography, email headers & custom domains. |
-| 📊 **Agency Executive Dashboard Fellow** | Executive SaaS Analytics | Total active projects, monthly m² output, revenue pipelines & subcontractor margin. |
-| ⚡ **Realtime Field Telemetry Fellow** | WebSockets & Field Stream | Sub-100ms WebSocket event broadcasting & resilient mobile offline queueing. |
-| 💬 **WhatsApp Progress Updates Fellow** | Client Messaging Digest | Automated WhatsApp assembly photo digests & instant client alert messages. |
-| 🧪 **Multi-Tenant QA E2E Fellow** | Multi-Tenant Regression E2E | Automated Playwright test suites across tenant subdomains & magic link auth. |
-| 📊 **tRPC & GraphQL Fellow** | Type-Safe API Layer | End-to-end type safety, batch resolver execution & zero overfetching. |
-| 📱 **iOS ASO Keyword Fellow** | App Store Optimization | High-intent ASO keyword targeting, multi-locale store metadata (TR, EN, DE, AR). |
-| 🚀 **Edge CDN Architect Fellow** | Sub-10ms Global Edge | Cloudflare/Vercel Edge middleware, global edge caching & origin shield. |
-| 🤖 **RAG Vector Engineer Fellow** | Vector DB & RAG Search | Semantic indexing (Pinecone/pgvector) of trade fair rules & specs. |
-| 📅 **Calendar Automation Fellow** | Meeting & Timezone Sync | Automated stand meeting booking, Google/Outlook sync across timezones. |
-| ✍️ **E-Signature Contract Fellow** | Digital Contract Execution | Legally binding DocuSign/eIDAS digital signature execution & audit trail. |
-| 🎫 **Zendesk Support Fellow** | Fairground Ticket Escalation | Instant high-priority ticket routing for on-site fairground adjustments. |
-| 💾 **DB Backup Recovery Fellow** | Zero Data Loss Recovery | Point-in-time recovery (PITR), encrypted cloud snapshots & auto failover. |
-| 🎨 **3D Spline Configurator Fellow** | WebGL 3D Stand Preview | Interactive 3D stand material switcher & dynamic m² resizing preview. |
-| 🌙 **Theme Mode Switcher Fellow** | OLED Dark & Light Mode | Zero-flicker theme transitions between OLED dark and crystal light modes. |
-| 🔊 **UI Web Audio Kinetics Fellow** | Apple-Grade Web Audio | Tactile spatial Web Audio haptics, button click feedback & ambient sound. |
-| 📲 **Social Graphic Fellow** | Social Media Generation | Auto-generates 4K Instagram/LinkedIn graphics from 3D stand renders. |
-| 🔒 **PCI-DSS Security Fellow** | Payment Vault & PCI DSS | Zero-cardholder exposure, tokenized Stripe checkout & TLS 1.3 audit. |
-| 🔐 **KVKK & GDPR Privacy Fellow** | Data Privacy & Consent | Contextual consent banners, automated DSAR & data anonymization. |
-| ⚡ **Make & Zapier Fellow** | No-Code Scenario Pipelines | Visual workflow scenarios, multi-app triggers & error fallback pipelines. |
-| 🛒 **Odoo ERP Fellow** | ERP & Inventory Operations | Warehouse stock tracking, raw materials BOM & procurement workflows. |
-| 🛍️ **Shopify Automation Fellow** | E-Commerce Stand Catalogs | Modular stand products, custom checkout & order fulfillment. |
-| 🏢 **HubSpot CRM Fellow** | Sales & Deal Pipelines | Automatic deal pipelines, predictive lead scoring & CRM workflows. |
-| 🗃️ **Airtable Automation Fellow** | Relational Database Sync | Automated sync of stand inquiries & inventory to Airtable bases. |
-| 📈 **Business Analytics Fellow** | BI Dashboards & Unit Economics | Real-time financial dashboards, m² profit margins & KPI tracking. |
-| 🎨 **Algorithmic Art Fellow** | Computational GLSL Shaders | 60/120 FPS WebGL fragment shaders & generative spatial graphics. |
-| 🌐 **CQRS Microservices Fellow** | Event-Driven Architecture | Command Query Responsibility Segregation & event sourcing for high scale. |
-| 📊 **Agent Evaluation Fellow** | AI Reliability & Benchmarks | Automated accuracy benchmarking, reliability metrics & production audit. |
-| 📄 **Google Docs & Slides Fellow** | Presentation & Contract Automation | Editorial Google Slides & Docs proposal decks with embedded 3D renders. |
-| 💬 **Twilio & WhatsApp Fellow** | Multi-Channel Communications | Automated WhatsApp progress photos, SMS 2FA & instant quote alerts. |
-| 📦 **Docker & Cloud Container Fellow** | Containerization & Deployment | Multi-stage Docker builds, docker-compose, Nginx proxy, zero downtime. |
-| 🧠 **Agent Memory Systems Fellow** | Persistent Memory Systems | Never forgets past conversations, user preferences, or design rules. |
-| 🎥 **Remotion Video Fellow** | Programmatic Video | React Remotion 3D stand video rendering & marketing reels. |
-| 📄 **PDF Proposal Engine Fellow** | 8K PDF Proposal Generation | Embedded 3D renders, itemized pricing breakdown & digital signing. |
-| 🔔 **Push Notification Fellow** | APNs iOS Push Alerts | Real-time Apple push notifications for live iOS app clients. |
-| 💬 **Slack & Notion Fellow** | Team Workflow Sync | Auto-sync incoming stand quotes to team Slack & Notion databases. |
-| 📧 **Email Sequence Fellow** | Email Nurture & Automation | Automated luxury PDF quote delivery, pre/post-exhibition email sequences. |
-| 🤝 **Referral & Partner Fellow** | Partner Network & Affiliates | Architect & agency referral portal, commission tracking workflows. |
-| 📊 **A/B Testing & CRO Fellow** | Conversion Optimization | Statistically rigorous A/B testing matrix, zero-flicker layout selection. |
-| 🔐 **Privacy Compliance Fellow** | KVKK & GDPR Engineering | Data privacy, automated consent banners, KVKK & GDPR compliance. |
-| ✍️ **Copywriting & Brand Voice Fellow** | Luxury B2B Copywriting | High-conversion editorial storytelling, Apple-level luxury brand voice. |
-| 🎯 **AI Lead Capture & Sales Fellow** | 24/7 Sales Lead Assistant | Intelligent lead qualification, interactive quote assistance. |
-| 🚀 **Programmatic SEO Fellow** | Trade Fair SEO Architect | TÜYAP, İFM, Messe Berlin, Dubai landing page architecture & rankings. |
-| 🛠️ **Self-Healing Repair Fellow** | Automated System Healing | Empirical diagnosis & one-shot self-healing repair without trial-and-error. |
-| 💡 **Brainstorming & Ideation Fellow** | High-Concept Ideation | 2-3 agency-grade concepts, architectural tradeoffs, strategic brainstorming. |
-| 🔍 **Visual Trend Research Fellow** | Behance, Pinterest, Awwwards | Global trend scouting on Awwwards, Behance, Pinterest, Freepik, Canva, Mobbin. |
-| 🧠 **Claude Architectural Fellow** | Claude Reasoning & Refactoring | Deep structural planning, clean refactoring, multi-file consistency. |
-| ⚡ **Codex Precision Fellow** | Codex Root-Cause Fellow | Zero trial-and-error execution, one-shot surgical fixes, root cause diagnosis. |
-| ⚡ **React & Next.js Code Fellow** | Modern React & Architecture | Clean React 19/Next.js 15, zero-hydration shift, Server Components. |
-| 🔥 **WebGL & 3D Canvas Fellow** | 60/120 FPS 3D Performance | Three.js shader performance, GLTF Draco compression, GPU disposal. |
-| 🛡️ **Testing & QA Code Fellow** | Automated E2E QA | Playwright E2E automation, Vitest unit tests, zero regression. |
-| 🔒 **API Security Code Fellow** | Payload Contracts & Security | Zod/Pydantic runtime validation, XSS/SQLi defense, contract safety. |
-| 👑 **Supreme CDO Chairman** | Executive Art Director | Absolute Awwwards creative perfection; vetoes generic templates. |
-| 💻 **Cross-Platform Automation Fellow** | macOS & Windows Automation | PowerShell & Bash scripting, dual-OS CI/CD matrix, path normalization. |
-| 💳 **Stripe Monetization Fellow** | Payments & Checkout | PCI-DSS payments, %50 deposit invoicing, multi-currency ($/€/₺). |
-| 🌐 **i18n Localization Fellow** | Internationalization | TR, EN, DE (Messe Berlin), AR multi-language & hreflang SEO. |
-| 📊 **Product Analytics Fellow** | Behavioral Telemetry | PostHog/Mixpanel user session recordings, funnels, churn tracking. |
-| ⚡ **Performance & CDN Fellow** | Asset Optimization | AVIF/WebP image compression, font swap, edge CDN caching. |
-| 🍎 **App Store Connect Fellow** | App Store & TestFlight | App Store Connect metadata, TestFlight builds, Apple Review compliance. |
-| 📲 **iOS App Telemetry Fellow** | iOS Live Telemetry | Live iOS crash tracking, 60/120 FPS ProMotion, WKWebView sync. |
-|  **Apple Platform Fellow** | Apple HIG & iOS Master | Continuous squircle curvature, SF Pro Typography, Dynamic Island. |
-| 📁 **Google Drive Fellow** | Drive Cloud Storage | OAuth 2.0, project folder auto-structuring, 3D render & CAD archiving. |
-| 🛡️ **Cybersecurity Fellow** | AppSec & Vulnerability | OWASP Top 10 defense, XSS/CSRF sanitization, CSP headers, rate limiting. |
-| 🔍 **Google Ecosystem Fellow** | Technical SEO & GA4 | Schema.org JSON-LD, Core Web Vitals (LCP < 1.2s, CLS=0), GA4 analytics. |
-| 🗄️ **Supabase Database Fellow** | Supabase & Postgres | Row Level Security (RLS), zero-downtime DB migrations, Realtime. |
-| 🐙 **GitHub CI/CD Fellow** | GitHub Automation | GitHub Actions workflows, PR automated quality gates, release pipelines. |
-| 🎯 **Zero-Irrelevance Auditor** | Focus & Relevance | Blocks unrelated edits; keeps work 100% aligned with user intent. |
-| 🛡️ **System Code Protector** | Live Safety Fellow | Mandatory User Approval Gate; zero logic breakage; live iOS safety. |
-| 📱 **Supreme Mobile Architect** | Apple HIG & Ergonomics | Touch-first ergonomics, safe area insets, bottom-sheets, `100dvh`. |
-| 📐 **Supreme Pixel Architect** | Geometry Fellow | Concentric radii math, dynamic tracking scale, sub-pixel grid tension. |
-| 📐 **CAD & 3D Max Master** | Architectural Software | AutoCAD DWG/DXF, 3ds Max + Corona Render, CorelDRAW, AI, Photoshop. |
-| 🏬 **Enterprise Domain Master** | Industry Specialist | Exhibition stand systems, 3D renders, procurement, financial flows. |
-| ⚔️ **Supreme Veto Gatekeeper** | Cross-Critique Chief | Enforces 3-pass internal critique loop before presenting to user. |
+The Supreme Council consists of **150 Highly Specialized Beyond-Awwwards Agents**, organized into dedicated operational squads:
+
+### 🧠 1. Sovereign Command & Merciless Quality Tribunal
+- **Sovereign AI Master Mind** (`supreme-god-tier-master-brain.md`): 360° Commander-in-Chief; orchestrates all 150 agents.
+- **Ruthless Quality Audit Tribunal** (`ruthless-quality-tribunal-agent.md`): 3-Pass Internal Audit; holds absolute VETO power before presenting to user.
+- **Supreme Orchestration Chief** (`supreme-god-tier-council-chief.md`): Master execution chief across multi-agent pipelines.
+- **Zero-Irrelevance Auditor** (`zero-irrelevance-auditor.md`): Enforces laser-focused context and blocks topic drift.
+- **System Code Protector** (`system-code-protector-agent.md`): Mandatory User Approval Gate; zero logic breakage; live iOS safety.
+
+### 🔑 2. Multi-Tenant SaaS & Auth Architecture Squad
+- **Magic Link & Passwordless Auth Fellow** (`magic-link-auth-fellow.md`)
+- **Multi-Tenant Isolation & RLS Fellow** (`multi-tenant-isolation-fellow.md`)
+- **RBAC & Fine-Grained Permissions Fellow** (`rbac-permissions-fellow.md`)
+- **Tenant 60-Second Onboarding Fellow** (`tenant-onboarding-wizard-fellow.md`)
+- **Usage-Based Tenant Metering & Billing Fellow** (`multi-tenant-usage-billing-fellow.md`)
+- **Tenant Data Backup & GDPR Exporter Fellow** (`multi-tenant-data-exporter-fellow.md`)
+
+### 📋 3. Brief Intake, CAD & 3D Render Asset Squad
+- **Client Brief Collection Intake Wizard** (`brief-intake-wizard-fellow.md`)
+- **CAD DWG & 3ds Max Corona Render Asset Pipeline** (`cad-file-parser-fellow.md`)
+- **3D Render Visual Revision Pin Chat** (`render-annotation-chat-fellow.md`)
+- **Dynamic Render Draft Watermark & IP Protection** (`render-watermark-protection-fellow.md`)
+- **3D Spline & WebGL Stand Material Configurator** (`spline-3d-configurator-fellow.md`)
+- **3D Lightmap Baking & Global Illumination Fellow** (`3d-lighting-baking-fellow.md`)
+- **PBR Material & Wood Texture Vault Fellow** (`material-texture-library-fellow.md`)
+- **3D Asset Draco Mesh & KTX2 Texture Compressor** (`3d-asset-draco-compression-fellow.md`)
+- **CAD Drawing Visual Diff & Revision Inspector** (`cad-drawing-diff-checker-fellow.md`)
+- **iOS ARKit 1:1 True Scale AR Stand Preview** (`ar-stand-preview-fellow.md`)
+
+### 🚚 4. Field Assembly, Logistics & Procurement Squad
+- **Field Assembly & Logistics Timeline Planner** (`field-logistics-planner-fellow.md`)
+- **Subcontractor RFQ & Supplier Procurement** (`subcontractor-procurement-fellow.md`)
+- **Post-Fair Dismantling & Warehouse Restock** (`dismantling-inventory-fellow.md`)
+- **Workshop CNC Cut-List & Zero-Waste Optimizer** (`cnc-cutlist-optimizer-fellow.md`)
+- **Fleet Logistics Truck GPS Route Optimizer** (`fleet-logistics-route-fellow.md`)
+- **AV Video Wall, Truss Rigging & Sound Hardware** (`av-truss-rigging-fellow.md`)
+- **Fairground Official Permit & Structural Audit** (`fairground-permit-fellow.md`)
+- **Subcontractor Offline Field Crew Mobile App** (`subcontractor-mobile-app-fellow.md`)
+- **Subcontractor Stripe Connect Instant Payouts** (`subcontractor-payout-stripe-connect-fellow.md`)
+- **Fairground Worker Safety & Insurance Auditor** (`contractor-safety-insurance-fellow.md`)
+- **Subcontractor Rating & Review System** (`subcontractor-rating-review-fellow.md`)
+- **Material Swatch & Courier Sample Tracker** (`material-sample-shipping-fellow.md`)
+
+### 💰 5. Financials, $m^2$ Pricing & Invoicing Squad
+- **$m^2$ Automated Pricing & Margin Guard** (`square-meter-pricing-engine-fellow.md`)
+- **Milestone Hakediş & e-Fatura Invoicing Sync** (`progress-payment-invoicing-fellow.md`)
+- **Live Central Bank Foreign FX Exchange Sync** (`multi-currency-exchange-fellow.md`)
+- **Bank MT940 Reconciliation & Statement Pairing** (`bank-reconciliation-fellow.md`)
+- **Stripe PCI-DSS Vault Payment Security** (`pci-dss-security-fellow.md`)
+- **Raw Material Inflation & Price Hedging Engine** (`dynamic-pricing-inflation-fellow.md`)
+- **Cross-Border SWIFT & SEPA Wire Transfer Sync** (`multi-currency-payout-bank-fellow.md`)
+- **B2B Credit Risk & Invoice Factoring Engine** (`invoice-factoring-credit-fellow.md`)
+- **Overseas Exhibition VAT / KDV Refund Sync** (`tax-exemption-export-fellow.md`)
+
+### 🏛️ 6. White-Label Client Portal & Executive BI Squad
+- **White-Label Client Presentation Portal** (`white-label-client-portal-fellow.md`)
+- **Dynamic Tenant White-Label Branding System** (`white-label-branding-fellow.md`)
+- **Agency Executive Analytics & KPI Dashboard** (`agency-executive-dashboard-fellow.md`)
+- **Architect Design Win-Rate & Performance Analytics** (`architect-performance-fellow.md`)
+- **Proposal Heatmaps & Client Screen Time Analytics** (`proposal-heatmaps-analytics-fellow.md`)
+- **Client Churn Prediction & Retention Engine** (`client-churn-retention-fellow.md`)
+- **Post-Exhibition Client NPS & CSAT Survey** (`client-feedback-nps-fellow.md`)
+- **Drag-and-Drop Executive BI Report Builder** (`custom-report-builder-fellow.md`)
+- **Multi-Agency White-Label Reseller Portal** (`multi-agency-reseller-fellow.md`)
+
+### ⚡ 7. Realtime Telemetry, Mobile & API Squad
+- **Real-Time WebSockets & Field Telemetry Stream** (`realtime-field-telemetry-fellow.md`)
+- **WhatsApp Progress Photo Digests & SMS Alerts** (`whatsapp-sms-progress-fellow.md`)
+- **tRPC & GraphQL End-to-End Type-Safe API** (`trpc-graphql-architect-fellow.md`)
+- **Global Edge CDN & Sub-10ms Serverless** (`edge-cdn-architect-fellow.md`)
+- **Pinecone/pgvector AI RAG Knowledge Vector Search** (`rag-vector-engineer-fellow.md`)
+- **iOS App Store Optimization (ASO) Keyword Fellow** (`aso-keyword-fellow.md`)
+- **iOS Dynamic Island & Live Activity Widgets** (`ios-widget-live-activity-fellow.md`)
+- **Instant iOS App Clip Quick Access Fellow** (`ios-app-clip-quick-access-fellow.md`)
+- **Sub-Second Algolia Instant Search Fellow** (`sub-second-search-algolia-fellow.md`)
+- **Predictive Anomaly & Live Health Telemetry** (`predictive-anomaly-fellow.md`)
+- **Multi-Tenant Automated Regression Playwright E2E** (`multi-tenant-qa-e2e-fellow.md`)
+
+---
+
+## 🔒 Mandatory Live System Protection Protocol
+
+1. 🚫 **ZERO LOGIC BREAKAGE:** Never alter existing API contracts, database column names, state variables, or function signatures.
+2. ✋ **USER APPROVAL HARD-GATE:** Present all design concepts to the user in CHAT first and wait for explicit approval (**"APPROVED"**) before modifying any code.
+3. 🍎 **IOS SAFARI & WKWEBVIEW COMPATIBILITY:** Enforce `-webkit-backdrop-filter`, safe area insets `env(safe-area-inset-top/bottom)`, touch targets $\ge 44\text{pt}$, and dynamic height `min-h-[100dvh]`.
