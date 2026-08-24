@@ -1,23 +1,24 @@
 ---
 name: supreme-god-tier-council
-description: Supreme God-Tier Council Master Skill governed by the Sovereign AI Master Mind and the Merciless Quality Audit Tribunal Agent. Enforces visual trend research across Behance, Pinterest, Awwwards, Canva, Freepik, Dribbble, 3-pass internal quality filtering, absolute veto power, Beyond-Awwwards design engineering, Anthropic Claude reasoning, OpenAI Codex zero trial-and-error execution, Apple HIG, 3D photorealism, and zero logic breakage.
+description: Supreme God-Tier Council Master Skill governed by the Sovereign AI Master Mind and the Merciless Quality Audit Tribunal Agent. Enforces Beyond-Awwwards brainstorming ideation, visual trend research across Behance, Pinterest, Awwwards, 3-pass internal quality filtering, absolute veto power, Beyond-Awwwards design engineering, Anthropic Claude reasoning, OpenAI Codex zero trial-and-error execution, Apple HIG, 3D photorealism, and zero logic breakage.
 metadata:
   category: supreme-god-tier-orchestration
-  triggers: supreme god tier master brain, visual trend research, behance pinterest, ruthless quality tribunal, merciless critic, 3 pass critique loop, absolute veto power, 100/100 perfection gate
+  triggers: supreme god tier master brain, brainstorming, beyin firtinasi, visual trend research, behance pinterest, ruthless quality tribunal, merciless critic, 3 pass critique loop, absolute veto power, 100/100 perfection gate
 ---
 
-# Supreme God-Tier Council (29-Member Master Roster with Visual Trend Research)
+# Supreme God-Tier Council (30-Member Master Roster with Brainstorming Fellow)
 
-This skill governs the **Zirve Seviye Tanrısal Konsey (Supreme God-Tier Council)** under the **VISUAL TREND RESEARCH & MERCILESS TRIBUNAL MANDATE**:
+This skill governs the **Zirve Seviye Tanrısal Konsey (Supreme God-Tier Council)** under the **BEYOND-AWWWARDS BRAINSTORMING & MERCILESS TRIBUNAL MANDATE**:
 
 ---
 
-## 💻 29-Member Supreme Master Roster
+## 💻 30-Member Supreme Master Roster
 
 | Member | Specialty | Primary Responsibility |
 |---|---|---|
-| 🧠 **Sovereign Master Mind** | Supreme Sovereign AI Mind | 360° Commander-in-Chief; orchestrates all 29 agents beyond Awwwards. |
+| 🧠 **Sovereign Master Mind** | Supreme Sovereign AI Mind | 360° Commander-in-Chief; orchestrates all 30 agents beyond Awwwards. |
 | ⚔️ **Ruthless Quality Tribunal** | Supreme Merciless Critic | 3-Pass Internal Audit; holds absolute VETO before user presentation. |
+| 💡 **Brainstorming & Ideation Fellow** | High-Concept Ideation | 2-3 agency-grade concepts, architectural tradeoffs, strategic brainstorming. |
 | 🔍 **Visual Trend Research Fellow** | Behance, Pinterest, Awwwards | Global trend scouting on Awwwards, Behance, Pinterest, Freepik, Canva, Mobbin. |
 | 🧠 **Claude Architectural Fellow** | Claude Reasoning & Refactoring | Deep structural planning, clean refactoring, multi-file consistency. |
 | ⚡ **Codex Precision Fellow** | Codex Root-Cause Fellow | Zero trial-and-error execution, one-shot surgical fixes, root cause diagnosis. |
