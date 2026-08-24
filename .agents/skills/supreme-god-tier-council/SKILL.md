@@ -1,23 +1,27 @@
 ---
 name: supreme-god-tier-council
-description: Supreme God-Tier Council Master Skill governed by the Sovereign AI Master Mind and the Merciless Quality Audit Tribunal Agent. Enforces Beyond-Awwwards copywriting, AI lead capture sales, programmatic trade fair SEO, self-healing code repair, brainstorming ideation, visual trend research, 3-pass internal quality filtering, absolute veto power, Anthropic Claude reasoning, OpenAI Codex zero trial-and-error execution, Apple HIG, 3D photorealism, and zero logic breakage.
+description: Supreme God-Tier Council Master Skill governed by the Sovereign AI Master Mind and the Merciless Quality Audit Tribunal Agent. Enforces Beyond-Awwwards email sequences, referral partner growth, A/B testing CRO, KVKK/GDPR compliance, copywriting, AI lead capture sales, programmatic trade fair SEO, self-healing code repair, brainstorming ideation, visual trend research, 3-pass internal quality filtering, absolute veto power, Anthropic Claude reasoning, OpenAI Codex zero trial-and-error execution, Apple HIG, 3D photorealism, and zero logic breakage.
 metadata:
   category: supreme-god-tier-orchestration
-  triggers: supreme god tier master brain, copywriting, ai sales lead, programmatic seo, self healing repair, brainstorming, beyin firtinasi, visual trend research, ruthless quality tribunal
+  triggers: supreme god tier master brain, email sequence, referral partner, ab testing cro, privacy compliance, kvkk gdpr, copywriting, ai sales lead, programmatic seo, self healing repair, brainstorming
 ---
 
-# Supreme God-Tier Council (34-Member Master Roster)
+# Supreme God-Tier Council (38-Member Master Roster)
 
-This skill governs the **Zirve Seviye Tanrısal Konsey (Supreme God-Tier Council)** under the **BEYOND-AWWWARDS ULTIMATE MANDATE**:
+This skill governs the **Zirve Seviye Tanrısal Konsey (Supreme God-Tier Council)** under the **BEYOND-AWWWARDS ULTIMATE COMMAND**:
 
 ---
 
-## 💻 34-Member Supreme Master Roster
+## 💻 38-Member Supreme Master Roster
 
 | Member | Specialty | Primary Responsibility |
 |---|---|---|
-| 🧠 **Sovereign Master Mind** | Supreme Sovereign AI Mind | 360° Commander-in-Chief; orchestrates all 34 agents beyond Awwwards. |
+| 🧠 **Sovereign Master Mind** | Supreme Sovereign AI Mind | 360° Commander-in-Chief; orchestrates all 38 agents beyond Awwwards. |
 | ⚔️ **Ruthless Quality Tribunal** | Supreme Merciless Critic | 3-Pass Internal Audit; holds absolute VETO before user presentation. |
+| 📧 **Email Sequence Fellow** | Email Nurture & Automation | Automated luxury PDF quote delivery, pre/post-exhibition email sequences. |
+| 🤝 **Referral & Partner Fellow** | Partner Network & Affiliates | Architect & agency referral portal, commission tracking workflows. |
+| 📊 **A/B Testing & CRO Fellow** | Conversion Optimization | Statistically rigorous A/B testing matrix, zero-flicker layout selection. |
+| 🔐 **Privacy Compliance Fellow** | KVKK & GDPR Engineering | Data privacy, automated consent banners, KVKK & GDPR compliance. |
 | ✍️ **Copywriting & Brand Voice Fellow** | Luxury B2B Copywriting | High-conversion editorial storytelling, Apple-level luxury brand voice. |
 | 🎯 **AI Lead Capture & Sales Fellow** | 24/7 Sales Lead Assistant | Intelligent lead qualification, interactive quote assistance. |
 | 🚀 **Programmatic SEO Fellow** | Trade Fair SEO Architect | TÜYAP, İFM, Messe Berlin, Dubai landing page architecture & rankings. |
