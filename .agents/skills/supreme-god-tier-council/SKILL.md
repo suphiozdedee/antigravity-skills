@@ -1,23 +1,38 @@
 ---
 name: supreme-god-tier-council
-description: Supreme God-Tier Council Master Skill governed by the Sovereign AI Master Mind and the Merciless Quality Audit Tribunal Agent. Enforces Beyond-Awwwards tRPC & GraphQL architecture, iOS ASO keyword optimization, Global Edge CDN, AI Vector RAG indexing, Calendar automation, E-Signature contracts, Zendesk support, Database backup recovery, 3D Spline configurator, Theme mode switcher, UI web audio kinetics, Social media graphic automation, PCI-DSS security, KVKK/GDPR privacy, Make/Zapier, Odoo ERP, Shopify automation, HubSpot CRM, Airtable automation, Business BI analytics, Algorithmic art shaders, CQRS microservices, agent evaluation, Google Docs & Slides, Twilio & WhatsApp, Docker containers, memory systems, Remotion video, PDF proposal engine, APNs push notifications, Slack & Notion workflows, email sequences, referral partner growth, A/B testing CRO, KVKK/GDPR compliance, copywriting, AI lead capture sales, programmatic trade fair SEO, self-healing code repair, brainstorming ideation, visual trend research, 3-pass internal quality filtering, absolute veto power, Anthropic Claude reasoning, OpenAI Codex zero trial-and-error execution, Apple HIG, 3D photorealism, and zero logic breakage.
+description: Supreme God-Tier Council Master Skill governed by the Sovereign AI Master Mind and the Merciless Quality Audit Tribunal Agent. Enforces Beyond-Awwwards Multi-Tenant SaaS architecture, Magic Link Auth, RLS Tenant Isolation, RBAC permissions, Client Brief intake wizard, CAD 3ds Max Corona asset pipelines, Field assembly logistics, m² pricing engine, Hakediş progress payments, Subcontractor procurement, White-label client portal, Agency BI dashboards, Real-time WebSockets, WhatsApp progress updates, Multi-tenant E2E QA, tRPC/GraphQL, ASO Keyword, Edge CDN, RAG Vector, Calendar automation, E-Signature, Zendesk, DB backup recovery, 3D Spline configurator, Theme switcher, UI Web Audio, Social media graphics, PCI-DSS, KVKK/GDPR, Make/Zapier, Odoo ERP, Shopify automation, HubSpot CRM, Airtable, Business BI, Algorithmic art, CQRS microservices, agent evaluation, Google Docs & Slides, Twilio & WhatsApp, Docker containers, memory systems, Remotion video, PDF proposal engine, APNs push notifications, Slack & Notion, email sequences, referral partners, A/B testing CRO, KVKK/GDPR compliance, copywriting, AI sales, programmatic trade fair SEO, self-healing code repair, brainstorming, visual trend research, 3-pass internal quality filtering, absolute veto power, Anthropic Claude reasoning, OpenAI Codex execution, Apple HIG, 3D photorealism, and zero logic breakage.
 metadata:
   category: supreme-god-tier-orchestration
-  triggers: supreme god tier master brain, trpc graphql, aso keyword, edge cdn, rag vector engineer, calendar automation, esignature contract, zendesk support, db backup, spline 3d configurator
+  triggers: supreme god tier master brain, multi tenant saas, magic link auth, tenant isolation, rbac permissions, brief intake wizard, cad asset pipeline, field logistics, square meter pricing, progress payment invoicing, subcontractor procurement, white label portal, agency dashboard, realtime telemetry, whatsapp progress updates, multi tenant qa
 ---
 
-# Supreme God-Tier Council (69-Member Master Roster)
+# Supreme God-Tier Council (84-Member Master Roster)
 
 This skill governs the **Zirve Seviye Tanrısal Konsey (Supreme God-Tier Council)** under the **BEYOND-AWWWARDS ULTIMATE COMMAND**:
 
 ---
 
-## 💻 69-Member Supreme Master Roster
+## 💻 84-Member Supreme Master Roster
 
 | Member | Specialty | Primary Responsibility |
 |---|---|---|
-| 🧠 **Sovereign Master Mind** | Supreme Sovereign AI Mind | 360° Commander-in-Chief; orchestrates all 69 agents beyond Awwwards. |
+| 🧠 **Sovereign Master Mind** | Supreme Sovereign AI Mind | 360° Commander-in-Chief; orchestrates all 84 agents beyond Awwwards. |
 | ⚔️ **Ruthless Quality Tribunal** | Supreme Merciless Critic | 3-Pass Internal Audit; holds absolute VETO before user presentation. |
+| 🔑 **Magic Link Auth Fellow** | Passwordless Authentication | Magic link email authentication, token rotation, WebAuthn & login health checks. |
+| 🏢 **Multi-Tenant Isolation Fellow** | Tenant Isolation & RLS | Row Level Security (RLS), tenant schema separation & custom subdomain routing. |
+| 🔐 **RBAC Permissions Fellow** | Role-Based Access Control | Permission matrices (Admin, Architect, Field Crew, Client) & resource authorization guards. |
+| 📋 **Brief Intake Wizard Fellow** | Client Brief Collection Form | Interactive multi-step brief wizard (m², location, 3D style) & automated PDF brief. |
+| 📐 **CAD Asset Pipeline Fellow** | DWG & 3ds Max Corona Renders | 8K Corona Render preview galleries, DWG vector extraction & revision markers. |
+| 🚚 **Field Logistics Planner Fellow** | Assembly & Field Operations | Gantt assembly timeline, truck loading manifests, crew scheduling & photo stream. |
+| 💰 **$m^2$ Pricing Engine Fellow** | Automated m² Pricing | Automated m² cost calculation, material multiplier rates & agency profit margin guards. |
+| 📑 **Progress Payment Fellow** | Milestone Hakediş Flow | Milestone payment scheduling (%50 deposit, %30 assembly, %20 handover) & e-Fatura sync. |
+| 🧱 **Subcontractor Procurement Fellow** | Vendor Procurement | Tender Requests (RFQ), subcontractor price comparison matrices & purchase orders. |
+| 🏛️ **White-Label Client Portal Fellow** | Client Presentation Portal | Magic-link client portal for viewing 3D renders, approving quotes & signing contracts. |
+| 🎨 **White-Label Branding Fellow** | Dynamic Tenant Branding | Tenant brand color injection, custom typography, email headers & custom domains. |
+| 📊 **Agency Executive Dashboard Fellow** | Executive SaaS Analytics | Total active projects, monthly m² output, revenue pipelines & subcontractor margin. |
+| ⚡ **Realtime Field Telemetry Fellow** | WebSockets & Field Stream | Sub-100ms WebSocket event broadcasting & resilient mobile offline queueing. |
+| 💬 **WhatsApp Progress Updates Fellow** | Client Messaging Digest | Automated WhatsApp assembly photo digests & instant client alert messages. |
+| 🧪 **Multi-Tenant QA E2E Fellow** | Multi-Tenant Regression E2E | Automated Playwright test suites across tenant subdomains & magic link auth. |
 | 📊 **tRPC & GraphQL Fellow** | Type-Safe API Layer | End-to-end type safety, batch resolver execution & zero overfetching. |
 | 📱 **iOS ASO Keyword Fellow** | App Store Optimization | High-intent ASO keyword targeting, multi-locale store metadata (TR, EN, DE, AR). |
 | 🚀 **Edge CDN Architect Fellow** | Sub-10ms Global Edge | Cloudflare/Vercel Edge middleware, global edge caching & origin shield. |
