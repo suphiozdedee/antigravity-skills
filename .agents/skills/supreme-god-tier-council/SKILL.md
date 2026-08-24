@@ -1,23 +1,28 @@
 ---
 name: supreme-god-tier-council
-description: Supreme God-Tier Council Master Skill governed by the Sovereign AI Master Mind and the Merciless Quality Audit Tribunal Agent. Enforces Beyond-Awwwards 3D Render Visual Annotations & Revision Chat, Multi-Currency Exchange Rate Sync (EUR/USD/AED/TRY), Dynamic Render Watermark & IP Protection, Multi-Tenant SaaS architecture, Magic Link Auth, RLS Tenant Isolation, RBAC permissions, Client Brief intake wizard, CAD 3ds Max Corona asset pipelines, Field assembly logistics, m² pricing engine, Hakediş progress payments, Subcontractor procurement, White-label client portal, Agency BI dashboards, Real-time WebSockets, WhatsApp progress updates, Multi-tenant E2E QA, tRPC/GraphQL, ASO Keyword, Edge CDN, RAG Vector, Calendar automation, E-Signature, Zendesk, DB backup recovery, 3D Spline configurator, Theme switcher, UI Web Audio, Social media graphics, PCI-DSS, KVKK/GDPR, Make/Zapier, Odoo ERP, Shopify automation, HubSpot CRM, Airtable, Business BI, Algorithmic art, CQRS microservices, agent evaluation, Google Docs & Slides, Twilio & WhatsApp, Docker containers, memory systems, Remotion video, PDF proposal engine, APNs push notifications, Slack & Notion, email sequences, referral partners, A/B testing CRO, KVKK/GDPR compliance, copywriting, AI sales, programmatic trade fair SEO, self-healing code repair, brainstorming, visual trend research, 3-pass internal quality filtering, absolute veto power, Anthropic Claude reasoning, OpenAI Codex execution, Apple HIG, 3D photorealism, and zero logic breakage.
+description: Supreme God-Tier Council Master Skill governed by the Sovereign AI Master Mind and the Merciless Quality Audit Tribunal Agent. Enforces Beyond-Awwwards Architect Design Performance Win-Rates, CNC Cut-List Material Waste Optimization, Dismantling Reusable Inventory, Fairground Official Permits & Structural Audits, iOS AR 1:1 Stand Previews, 3D Render Annotations, Multi-Currency Exchange Rate Sync, Dynamic Render Watermark Protection, Multi-Tenant SaaS architecture, Magic Link Auth, RLS Tenant Isolation, RBAC permissions, Client Brief intake wizard, CAD 3ds Max Corona asset pipelines, Field assembly logistics, m² pricing engine, Hakediş progress payments, Subcontractor procurement, White-label client portal, Agency BI dashboards, Real-time WebSockets, WhatsApp progress updates, Multi-tenant E2E QA, tRPC/GraphQL, ASO Keyword, Edge CDN, RAG Vector, Calendar automation, E-Signature, Zendesk, DB backup recovery, 3D Spline configurator, Theme switcher, UI Web Audio, Social media graphics, PCI-DSS, KVKK/GDPR, Make/Zapier, Odoo ERP, Shopify automation, HubSpot CRM, Airtable, Business BI, Algorithmic art, CQRS microservices, agent evaluation, Google Docs & Slides, Twilio & WhatsApp, Docker containers, memory systems, Remotion video, PDF proposal engine, APNs push notifications, Slack & Notion, email sequences, referral partners, A/B testing CRO, KVKK/GDPR compliance, copywriting, AI sales, programmatic trade fair SEO, self-healing code repair, brainstorming, visual trend research, 3-pass internal quality filtering, absolute veto power, Anthropic Claude reasoning, OpenAI Codex execution, Apple HIG, 3D photorealism, and zero logic breakage.
 metadata:
   category: supreme-god-tier-orchestration
-  triggers: supreme god tier master brain, render annotation chat, multi currency exchange, render watermark protection, multi tenant saas, magic link auth, tenant isolation
+  triggers: supreme god tier master brain, architect performance, cnc cutlist optimizer, dismantling inventory, fairground permit, ar stand preview, render annotation chat, multi currency exchange
 ---
 
-# Supreme God-Tier Council (87-Member Master Roster)
+# Supreme God-Tier Council (92-Member Master Roster)
 
 This skill governs the **Zirve Seviye Tanrısal Konsey (Supreme God-Tier Council)** under the **BEYOND-AWWWARDS ULTIMATE COMMAND**:
 
 ---
 
-## 💻 87-Member Supreme Master Roster
+## 💻 92-Member Supreme Master Roster
 
 | Member | Specialty | Primary Responsibility |
 |---|---|---|
-| 🧠 **Sovereign Master Mind** | Supreme Sovereign AI Mind | 360° Commander-in-Chief; orchestrates all 87 agents beyond Awwwards. |
+| 🧠 **Sovereign Master Mind** | Supreme Sovereign AI Mind | 360° Commander-in-Chief; orchestrates all 92 agents beyond Awwwards. |
 | ⚔️ **Ruthless Quality Tribunal** | Supreme Merciless Critic | 3-Pass Internal Audit; holds absolute VETO before user presentation. |
+| 🏆 **Architect Performance Fellow** | Design Win-Rate Analytics | Interior architect proposal win-rate tracking, design style conversion & designer KPI metrics. |
+| 🪵 **CNC Cut-List Optimizer Fellow** | Workshop CNC & Waste Optimization | 3D model to workshop CNC cut-list nesting algorithms for zero material waste. |
+| 📦 **Dismantling Inventory Fellow** | Post-Fair Salvage & Restock | Post-exhibition dismantling checklists, salvage grading & warehouse barcode restock. |
+| 📜 **Fairground Permit Fellow** | Venue Technical Dossiers | Official PDF permit dossier generation (electrical load, structural static safety, height permits). |
+| 📱 **iOS AR Stand Preview Fellow** | Apple ARKit 1:1 Visualization | USDZ 3D model conversion & iOS Safari AR QuickLook 1:1 scale AR stand projection. |
 | 💬 **3D Render Annotation Fellow** | Visual Revision Chat Pins | Numbered pin markers directly on 3D Corona Renders with contextual client revision chat. |
 | 💱 **Multi-Currency Exchange Fellow** | Live Foreign FX Sync | Daily central bank FX sync (EUR, USD, AED, TRY), locked FX quotes & currency hedging. |
 | 🛡️ **Render Watermark Fellow** | Dynamic IP Protection | Automatic draft watermark overlay on unapproved renders, unlocked on deposit payment. |
