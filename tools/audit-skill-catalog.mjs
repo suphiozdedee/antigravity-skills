@@ -6,11 +6,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(process.argv.find(arg => arg.startsWith('--root='))?.slice(7) || process.cwd());
 const strict = process.argv.includes('--fail-on-generated-stubs');
 const sha256 = content => crypto.createHash('sha256').update(content).digest('hex');
-const toRelative = p => path.relative(root, p).split(path.sep).join('/');
 
 function listFiles(directory, results = []) {
   if (!fs.existsSync(directory)) return results;
@@ -109,7 +109,7 @@ export function auditCatalog(rootDirectory) {
   };
 }
 
-if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(new URL(import.meta.url).pathname)) {
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const result = auditCatalog(root);
   process.stdout.write(JSON.stringify(result, null, 2) + '\n');
   if (strict && result.metrics.generatedAgentStubs > 0) process.exitCode = 1;
